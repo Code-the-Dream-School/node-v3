@@ -4,7 +4,8 @@ When you deploy a web application that allows users to create entries in a datab
 
 When the user logs in, the front end of the application needs to store a credential for use in subsequent requests — otherwise the user would have to log in for every protected request. One type of credential that is often used for REST requests is a JSON Web Token (JWT). The token is cryptographically signed by the server, using a secret string that’s only known by the server, so it can’t be counterfeited. The token contains information about which user is logged in. The token is not human-readable, but it is not encrypted either, so you should never put sensitive information in it, especially not the password or password hash. When the user is registered in MongoDB, a unique ID is created, just as it is for every MongoDB entry. This ID is typically stored in the token.
 
-### A Comment On Security
+### A Comment On Security (expanded)
+{nonexample}
 
 The way the instructor uses the JWT is as follows: (1) The user logs in with id and password, and the JWT is returned in the body of the response. (2) The web front end stores the JWT in local storage. (3) In subsequent requests, the JWT is inserted by the front end as a Bearer token in the `Authorization` header, so that it can be validated and so that the back end knows which user is making the request. You can see an example of this in the public directory for this assignment. This is a common practice — and a **very bad one!** You should never store sensitive information in the browser’s local storage. This is because, especially in large and complicated web front ends, it is common to introduce a vulnerability to a security attack called cross site scripting (XSS). If the application has an XSS vulnerability anywhere, the attacker can capture the token from local storage, and can then reuse that token to impersonate the user, doing any operations the user can do.
 
@@ -14,7 +15,7 @@ But, there is one more hitch. When a cookie is used, an attacker can then do cro
 
 For the next few assignments, you will follow the approach the instructor recommends — but do not do it in a production application! Actually, the approach where the caller saves the JWT for use in the authorization header is fine, but only when one server is talking to another. In that case, the calling server can store the JWT without using browser local storage.
 
-### Protecting Routes
+### Protecting Routes (*Nonexample alongside*)
 
 To protect routes in your Express application, you create authentication middleware, which runs before the route handler for each protected request. The authentication middleware checks that the token is present with the HTTP request, typically as the Bearer token in the `Authorization` header. Then it validates the token cryptographically, making sure the signature matches the secret. Then, it stores the user ID and perhaps other information about that user in the `req.user` property as a hash/object, so that it can be used by the controller functions handling each request. For example, this allows you to write a controller function that returns only the information that the logged on user is authorized to see.
 

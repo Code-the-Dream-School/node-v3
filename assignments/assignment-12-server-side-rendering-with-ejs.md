@@ -9,7 +9,7 @@ There is no starter repository for this project, so you will need to create one,
 .env
 .DS_Store
 ```
-
+{revise}
 You can just copy the `.gitignore` file and the `.env` file from the `06-jobs-api` directory. You won’t use the JWT values from `.env`, so you can delete those. The `.env` file is needed for the Mongo credential, and eventually for the session secret.
 
 Next, run `git init` to make the directory a git repository. Then, log into Github and create a new repository called `jobs-ejs`. You create a new repository using the + button in the upper right of your Github screen. You do not use a template, the repository should be public, and you do not create a `README` or a `.gitignore`.

@@ -29,12 +29,7 @@ You will notice a `.gitignore` file in the `03-task-manager/starter` directory. 
 
 In the future, you would create the `.env` file at the start of any project, and you would make sure that the `.gitignore` file includes `.env`, before putting any secrets like the Mongo password into the `.env`. You would never put such secrets in your code, even temporarily.
 
-## Additional Assignment
+### Mindset Materials
 
-Within the starter directory, create a file `quizAnswers.txt`. Put answers to the following questions in it.
+### Hungry For More
 
-1. Quickly explain how middleware is used in an Express application.
-2. What does CRUD stand for?
-3. You are careful to store your sensitive information in a .env file.  
-   1. How do you get your app to access the information in the .env file?  
-   2. How do you protect the contents of the .env file so that it is not stored in your Github repository?

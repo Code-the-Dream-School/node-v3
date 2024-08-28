@@ -51,6 +51,7 @@ What this means, in this case, is that the user wants to see all products where 
 3. Add some more logic: you choose! For example, the user might want to send a regular expression instead of search for starting letters. Or the user may only want products that cost less than 20.00.
 4. Optional additional item: Add a button to your `index.html`. Add JavaScript, either within a `<script>` tag in `index.html` or in a JavaScript file it references (which would also be in the public directory.) When you click the button, your JavaScript would issue a fetch call for `/api/v1/products`. Then you’d add the data you get back to a div in your HTML.
 
-## Bonus Assignment
 
-In the `node-express-course/week_3_alt_assignment` directory, a sample express application is provided. This is to give you a chance to do something creative with Express! Completion of the assignment is optional.The goals of the lesson are in the `README.md` in that folder, and the instructions are in `index.js`. You should first run the sample. You can then follow the instructions to create your own simple game. You’d give your file a name like `app.js` (also within the same directory, and you’d change the `package.json` so that the start command runs `app.js` instead of `index.js`. The example shows how HTML returned by the application can be made dynamic, through string interpolation. We’ll learn another way to return dynamic HTML later in the course. You should certainly run the sample application, as it explains important concepts. Creation of your own game is optional, but recommended.
+### Mindset Materials
+
+## Hungry For More

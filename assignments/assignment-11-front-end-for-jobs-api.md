@@ -859,3 +859,8 @@ You should be making commits as you go along. Once you have everything working, 
 * What do you do if the delete succeeds? First, you put a message in the text content of the message paragraph. Second, you redraw the table showing the updated list of entries. The jobs.js module has a function for this.
 * What do you do if the delete fails? Put a message indicating the failure in the message paragraph.
 * Anything else? You don’t want to take input while these asynchronous operations are in progress, so you set the enabled flag before you start them, and clear it afterwards.
+
+
+### Mindset Materials
+
+### Hungry For More

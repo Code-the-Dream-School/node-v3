@@ -88,7 +88,7 @@ The `index.ejs` view just shows links to login or register. The `logon.ejs` view
 
 Revised `views/partials/header.ejs`:
 
-```
+```javascript (EJS)
 <h1>The Jobs EJS Application</h1>
 <% if (user) { %>
    <p>User <%= user.name %> is logged on.</p>
@@ -465,3 +465,7 @@ That causes the authentication middleware to run before the `secretWordRouter`, 
 ### Submitting Your Work
 
 As usual, add and commit your changes and push the `lesson13` branch to your Github. Then create the pull request and include the link in your homework submission.
+
+### Mindset Materials
+
+### Hungry For More

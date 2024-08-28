@@ -22,3 +22,8 @@ To deploy to Render.com, follow these steps:
 ### Swagger / OpenAPI documentation
 
 The section of the video from 9:34:30 to the end discusses setting up a Swagger configuration. When you have an API, you need to document it so that implementers of applications that call the API (like the frontend) know what the available endpoints and operations are. Swagger is the best way to do that. It also creates a graphical user interface so that one can call the APIs directly from the UI. You should watch this section so that you understand how a Swagger configuration may be created and what functions it provides. However, this section of the video gets a bit complicated, so you are not required to implement Swagger for your application, but it’s a great idea to watch this section and familiarize yourself with the concept of Swagger. If possible, try to implement it as a bonus task this week.
+
+
+### Mindset Materials
+
+### Hungry For More

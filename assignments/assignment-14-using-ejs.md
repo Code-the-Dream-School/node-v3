@@ -123,3 +123,7 @@ You need to include the auth middleware in the `app.use`, because these are prot
 ### Submitting Your Work
 
 The usual steps apply.
+
+### Mindset Materials
+
+### Hungry For More

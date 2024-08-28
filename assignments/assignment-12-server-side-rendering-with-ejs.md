@@ -327,7 +327,7 @@ app.post("/secretWord", (req, res) => {
 
 These messages should be displayed on the next screen. Note that you can have multiple info or error messages. In order for them to be displayed, we need to add code in the view, in the `header.js` partial template, as follows:
 
-```
+```javascript (EJS)
 <h1>The Jobs EJS Application</h1>
 <% if (errors) {
   errors.forEach((err) => { %>
@@ -337,7 +337,7 @@ These messages should be displayed on the next screen. Note that you can have mu
   info.forEach((msg) => { %>
     <div>Info: <%= msg %></div>
 <% }) } %>
-<hr />
+
 ```
 
 Whoa! you may be saying. That doesn’t look like HTML! What will the browser do with it? The answer is that the browser never sees this stuff. The things in `<% %>` are JavaScript, executed on the server side, and the render process removes this and replaces it with the result of the code. There is logic, which is executed but not displayed, in the `<% %>` parts. Then, there is substitution of values, in the `<%= %>` parts, where the equals sign indicates that a value is to be displayed. So, this code checks the `info` and `errors` arrays, displaying values from them if any are present.
@@ -370,3 +370,9 @@ This is how `res.locals` is loaded with the right stuff. However, we’d want to
 ### Submitting Your Work
 
 To submit your work, you add, commit, and push your branch as usual, create a pull request and include a link to your pull request in the homework submission. In the next lesson, we will implement authentication using Passport, and in the final lesson, we’ll manage Jobs entries in the database.
+
+
+
+### Mindset Materials
+
+### Hungry For More

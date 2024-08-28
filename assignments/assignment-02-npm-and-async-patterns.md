@@ -182,3 +182,8 @@ haven’t talked about creating promises yet.)
 That’s all for this week, great job! Note, that while the `01-node-tutorial` folder has files for `13-event-emitter.js` and `14-request-event.js`, we’ve substituted those with the event emitter work in this week’s assignment and the `prompter.js` work in the previous assignment. You can still feel free to follow along with the video and complete those files if you’d like.
 
 When you have completed your programming assignment, do a `git add` for all your changes to the branch, commit the changes, and push the changes to your repository. Then create a pull request. A link to the pull request is to be included in your homework submisson.
+
+
+### Mindset Materials
+
+## Hungry For More

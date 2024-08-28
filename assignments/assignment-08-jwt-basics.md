@@ -39,3 +39,8 @@ pm.environment.set("token", jsonData.token);
 This code reads the `"token"` attribute from the response JSON and saves it in the “token” environment variable that you created earlier. Then save and run the logon request. There is an icon on the upper right with an eye on it. This gives you a look at the environment. You should see the token in the environment.
 
 Next, open the `GET` request authorization again. Click on authorization, Bearer. This time, for the token value, put `{{token}}`. This uses the token variable from the environment. Then save and run the request. It should work as before.
+
+
+### Mindset Materials
+
+### Hungry For More

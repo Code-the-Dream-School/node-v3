@@ -15,3 +15,9 @@ You will do your work in this new `06-jobs-api` repository directory. If you get
 You can choose to just repeat the work that the instructor shows, but it is better if you invent a model for a new kind of record you want to create instead of the Job model, as described above in the “Thinking About Your Final Project” section.
 
 **Be sure you test each step with Postman, creating a Postman collection of tests just like the instructor is doing.** This Postman collection of tests is used not only to test the API as it runs on your machine, but also, in Lesson 10, to test the application as deployed to Render.com. (We deploy to Render.com instead of to Heroku, as Heroku no longer allows applications to be deployed for free.)
+
+
+
+### Mindset Materials
+
+### Hungry For More

@@ -1,0 +1,11 @@
+## Optional Additional Assignment
+
+This optional assignment gives some idea of how authentication might work. You will use the `cookie-parser` npm package, so do an `npm install` for that package. Cookies are set, typically by the back end, the browser then stores them and attaches them to each subsequent request. This allows us to add some “state” to each HTTP request. That is, the browser and backend can ‘remember’ some information automatically across requests, like for example, which user is making these requests. Add to `app.js` a require statement for `cookie-parser`. Then, right after you parse the body of the request, add a statement to parse the cookies:
+
+```javascript
+app.use(cookieParser());
+```
+
+Now write a middleware function called `auth`. This checks for `req.cookies.name`. If that cookie is present, it sets` req.user` to the value, and calls `next`. If it is absent, it sets the res status to [401](https://http.dev/401) (which means unauthorized), and returns a message in a JSON object that says “unauthorized”. It **_does not_** call `next()` in this case. (Typically middleware would throw an error at this point, instead of returning a result.) Now add an `app.post("/logon")`, which should require a name in the body. If it is present, it should do a `res.cookie("name", req.body.name)`, and send back a 201 result code plus a message that says hello to the user. If name is not present, it should return a 400 and an error message in JSON. Now add an a`pp.delete("/logoff")`. This should do a `res.clearCookie("name")`, and then it should return a 200, with a message in JSON that the user is logged off. Now add an `app.get("/test")`. The auth middleware should be invoked in this `app.get` statement. The get should just return a 200, plus a message in JSON that says welcome to the user, whose name is in `req.user`. Then test this with Postman. You should be able to logon, logoff, and test, and the test should do something different depending on whether or not you are logged in.
+
+When you have completed your programming assignment, git add, git commit, and git push your branch, and create a pull request, so that you can include a link to your pull request in your homework submission.

@@ -1,6 +1,8 @@
 ### WEEKLY RMOR
 
-# COLLECT RMOR WHEN SUBMITTED COMPLETE AND CORRECT
+# STUDENTS MUST COLLECT RMOR EACH WEEK, RMOR IS COLLECTED WHEN RMOR RECALL IS SUBMITTED COMPLETE AND CORRECT
+
+# OPEN BOOK
 
 # WILL NOT BE GRADED, NOT A TEST
 
@@ -46,9 +48,9 @@ Reflections on growth, encouragement, motivating, self care, silly, mindset
 
 (FIRST WEEK ONLY) Project planning, project seed sowing 
 
-(MID COURSE) Nonexample references
+(MID COURSE) Nonexample project references
 
-(LAST WEEK ONLY) Debugging and deployement specific 
+(LAST WEEK ONLY) Debugging and deployement specific, project anticipatory 
 
 
 -------

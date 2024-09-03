@@ -101,6 +101,18 @@ Once you have created the pull request, you can copy the URL to link the pull re
 When you submit your homework, you also submit your answers to the mindset assignment, if there is one for that lesson.
 
 
-### Mindset Materials
+### Mindset Materials *include AI first
+
+Mindset Assignment
+AI - tool or weapon?
+
+This topic is a popular one these days... Artificial Intelligence. Countless news reports have praised the capabilities of this new tech tool, and also warned against the dangers. While intelligence is in the name of the tool, it’s important we identify how AI is different from human intelligence:
+
+- AI doesn't have volition or a sense of self
+- AI doesn't have long term memory between sessions, each session is independent
+- AI is essentially providing a generalized consensus of its training data
+- Unless combined with a web search like Bing Chat, AI’s knowledge can be out of date
+- AI sometimes make mistakes providing incorrect or even absurd answers (but then so do humans! so this is actually a similarity or rather a reflection of humanity within a tool humans created)
+- Like anything else on the internet, AI answers need to be verified
 
 ## Hungry For More

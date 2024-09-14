@@ -9,7 +9,7 @@ You can submit more than once.
 Here are the questions to expect ahead of time: 
 
 
-1. Which HTTP method is typically used for creating a new resource in a RESTful API?
+Which HTTP method is typically used for creating a new resource in a RESTful API?
 
 a) GET
 b) POST
@@ -17,7 +17,7 @@ c) PUT
 d) DELETE
 
 
-2. What will log in the console?
+ What will log in the console?
 
 ```javascript
 const array1 = [200, 201, 255, 300, 505];
@@ -33,7 +33,7 @@ c) 255
 d) 255, 300, 505
 
 
-4. In a RESTful API, which HTTP methods are typically used to update a resource? (Select all that apply)
+In a RESTful API, which HTTP methods are typically used to update a resource? (Select all that apply)
 
 a) PUT
 b) PATCH
@@ -41,8 +41,7 @@ c) POST
 d) GET
 
 
-
-5. Which of the following are valid ways to represent JSON data? (Select all that apply)
+Which of the following are valid ways to represent JSON data? (Select all that apply)
 
 a) {"key1": "value1", "key2": "value2"}
 b) ["value1", "value2"]
@@ -50,15 +49,15 @@ c) {key1: "value1", key2: "value2"}
 d) { "key1": "value1", "key2": "value2" }
 
 
-6. In JSON, what must all keys in an object be?
+In JSON, what must all keys in an object be?
 
 a) Strings
 b) Numbers
 c) Booleans
 d) Arrays
 
-7. In your own words describe a RESTful API
+In your own words describe a RESTful API
 (Written response and speak this question aloud as if interviewing)
 
-8. In your own words describe a RESTful API
+In your own words describe a RESTful API
 (Written response and speak this question aloud as if interviewing)

@@ -12,7 +12,7 @@ Here are the questions to expect ahead of time:
 
 PREVIEW RMOR:
 
-1. What is Node.js primarily used for? (Select 2)
+What is Node.js primarily used for? (Select 2)
 
 a) Front-end development
 b) Server-side scripting 
@@ -24,7 +24,7 @@ d) Backend development
 
 
 
-2. Which module in Node.js allows you to create a web server?
+Which module in Node.js allows you to create a web server?
 
 a) fs
 b) path
@@ -35,7 +35,7 @@ d) os
 
 
 
-3. How do you include external modules in a Node.js application?
+How do you include external modules in a Node.js application?
 
 a) import
 b) include
@@ -44,7 +44,7 @@ d) use
 
 
 
-4. What does Express do for Node.js? (Select all that apply)
+What does Express do for Node.js? (Select all that apply)
 
 a) Provides a framework for building web applications and APIs
 b) Manages and handles HTTP requests and responses
@@ -54,7 +54,7 @@ e) Automatically handles database connections
 
 
 
-5. What is middleware in the context of Express?
+What is middleware in the context of Express?
 
 a) A type of database
 b) A way to manage routes
@@ -64,7 +64,7 @@ d) A templating engine
 
 
 
-7. Which file is typically used to manage dependencies in a Node.js project?
+Which file is typically used to manage dependencies in a Node.js project?
 
 a) package.json
 b) node_modules.json
@@ -72,7 +72,7 @@ c) dependencies.json
 d) config.json
 
 
-8. In Express, what does the app.use() method do?
+In Express, what does the app.use() method do?
 
 a) It initializes the Express app
 b) It defines a route handler for HTTP GET requests
@@ -81,7 +81,7 @@ d) It starts the server on a specified port
 
 
 
-9. How do you handle form data sent via POST request in Express?
+How do you handle form data sent via POST request in Express?
 
 a) Use body-parser middleware
 b) Use express-static middleware
@@ -89,7 +89,7 @@ c) Use cookie-parser middleware
 d) Use url-encoder middleware
 
 
-10. What is the purpose of the npm init command?
+ What is the purpose of the npm init command?
 
 a) To install Node.js
 b) To create a new Node.js package.json file
@@ -97,17 +97,24 @@ c) To start the Node.js server
 d) To update Node.js to the latest version
 
 
+When approaching a real-world problem with technology, what is the primary benefit of using a design thinking approach?
+
+A) It focuses solely on technical feasibility
+B) It prioritizes financial gains over user needs
+C) It emphasizes understanding user needs and iterating solutions through prototyping
+D) It ensures that the problem is solved without any user feedback
 
 
 
+What area of tech do you want to enter?
 
-11. What area of tech do you want to enter?
+Were you inspired by the project example you saw?
 
-12. Were you inspired by the project example you saw?
+Do you have ideas for your final project and what are they?
 
-13. Do you have ideas for your final project and what are they?
+If not that's fine, list your interests or hobbies below. 
 
-14. If not that's fine, list your interests or hobbies below. 
+Save images of 13 and 14 visible on your desktop. Type: complete. 
 
-15. Save images of 13 and 14 visible on your desktop. Type: complete. 
+
 

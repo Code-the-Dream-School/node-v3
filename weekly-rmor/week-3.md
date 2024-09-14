@@ -9,7 +9,7 @@ You can submit more than once.
 Here are the questions to expect ahead of time: 
 
 
-1. What is the purpose of the async keyword in JavaScript?
+ What is the purpose of the async keyword in JavaScript?
 
 a) It makes a function return a promise
 b) It allows you to use await within a function
@@ -18,7 +18,7 @@ d) It ensures that a function completes immediately
 
 
 
-2. How do you handle errors in a promise chain using .catch()?
+How do you handle errors in a promise chain using .catch()?
 
 a) .catch() is used after a .then() method to handle errors
 b) .catch() is used to log errors to the console
@@ -27,7 +27,7 @@ d) .catch() is used to transform the value of a promise
 
 
 
-3. Which of the following statements are true about the await keyword? (Select all that apply)
+Which of the following statements are true about the await keyword? (Select all that apply)
 
 a) It pauses the execution of the async function until the promise is resolved
 b) It executes the next line of code regardless of the promise status
@@ -36,7 +36,7 @@ d) It makes an async function return a promise
 
 
 
-4. Which method is used to handle asynchronous results from a promise?
+Which method is used to handle asynchronous results from a promise?
 
 a) .then()
 b) .resolve()
@@ -45,7 +45,7 @@ d) .sync()
 
 
 
-5. In a promise chain, which of the following are purposes of the .finally() method? (Select all that apply)
+In a promise chain, which of the following are purposes of the .finally() method? (Select all that apply)
 
 a) To perform some final actions after the promise has been resolved or rejected
 b) To clean up resources or perform actions regardless of the promise’s outcome
@@ -53,8 +53,8 @@ c) To handle errors if the promise fails
 d) To transform the resolved value of the promise
 
 
-6. In your own words describe a promise:
+In your own words describe a promise:
 (Written response and speak this question aloud as if interviewing)
 
-7. In your own words describe a server:
+In your own words describe a server:
 (Written response and speak this question aloud as if interviewing)

@@ -15,6 +15,15 @@ B) save()
 C) exec()
 D) populate()
 
+Which regex pattern matches an email address?
+
+A) ^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$
+
+B) ^https?://[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$
+
+C) ^\d{4}-\d{2}-\d{2}$
+
+D) ^[a-zA-Z0-9]{5,}$
 
 What will happen if you do not handle the Promise returned by a Mongoose query?
 
@@ -31,6 +40,7 @@ B) where
 C) q
 D) search
 E) fields
+
 
 
 Which query parameters are commonly used to paginate results in an API request? (Select all that apply)

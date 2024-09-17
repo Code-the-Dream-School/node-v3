@@ -1,41 +1,48 @@
+
 ### Concepts: Authentication with JWT Tokens
 
-When you deploy a web application that allows users to create entries in a database, you typically need to protect that application with some form of authentication. Each user registers with the application, specifying a user identifier and a password. This information is stored by the application, typically in a database. If the application stores this information in MongoDB, you will have a User model. The model stores the user ID, a hash of the password, and perhaps other information. **The password itself is never stored, because that would make the application a risky repository of user passwords.** Instead, a **cryptographic hash** of the password is stored, and this information allows the user password to be validated at logon time, without needing to actually store the password itself.
+This lesson is a crunch, but stay focused, stay alert. A holiday break is on the way and a chance to catch up once this loaded lesson is complete. You got this!
 
-When the user logs in, the front end of the application needs to store a credential for use in subsequent requests — otherwise the user would have to log in for every protected request. One type of credential that is often used for REST requests is a JSON Web Token (JWT). The token is cryptographically signed by the server, using a secret string that’s only known by the server, so it can’t be counterfeited. The token contains information about which user is logged in. The token is not human-readable, but it is not encrypted either, so you should never put sensitive information in it, especially not the password or password hash. When the user is registered in MongoDB, a unique ID is created, just as it is for every MongoDB entry. This ID is typically stored in the token.
+## Summary:
 
-### A Comment On Security (expanded)
-{nonexample}
+-Store passwords securely using hashes.
+-Use JWTs for authentication, but prefer HTTP-only cookies for better security.
+-Protect routes with middleware and handle errors with clear, structured responses.
+-Authentication with JWT Tokens
 
-The way the instructor uses the JWT is as follows: (1) The user logs in with id and password, and the JWT is returned in the body of the response. (2) The web front end stores the JWT in local storage. (3) In subsequent requests, the JWT is inserted by the front end as a Bearer token in the `Authorization` header, so that it can be validated and so that the back end knows which user is making the request. You can see an example of this in the public directory for this assignment. This is a common practice — and a **very bad one!** You should never store sensitive information in the browser’s local storage. This is because, especially in large and complicated web front ends, it is common to introduce a vulnerability to a security attack called cross site scripting (XSS). If the application has an XSS vulnerability anywhere, the attacker can capture the token from local storage, and can then reuse that token to impersonate the user, doing any operations the user can do.
+## Refresh
+Client-server architecture involves:
 
-So, if you can’t put the token in local storage, how can you keep it on the browser side to maintain a logged on user session? The way this is done is for the server to set an HTTP-only cookie for the user session. The cookie is stored by the browser, but it is inaccessible to JavaScript in the browser session. When the front end sends a `fetch()` request to get data, the `fetch()` is performed with either `credentials: 'include'` or `credentials: 'same-origin'`. This causes the cookie to be sent back to the back end for validation.
+Client: Requests and displays data through a web browser or app. (For User, User facing)
+Server: Hosts the application, processes requests, and returns data.
 
-But, there is one more hitch. When a cookie is used, an attacker can then do cross site request forgery (CSRF), another security attack where the attacker leverages the fact that the cookie is automatically sent with a form post. So, one must add protections for CSRF, such as that provided by [this package](https://www.npmjs.com/package/host-csrf). we’ll use that package later in the course.
+They communicate over the internet using HTTP/HTTPS, enabling dynamic web interactions.
 
-For the next few assignments, you will follow the approach the instructor recommends — but do not do it in a production application! Actually, the approach where the caller saves the JWT for use in the authorization header is fine, but only when one server is talking to another. In that case, the calling server can store the JWT without using browser local storage.
+## Overview: 
 
-### Protecting Routes (*Nonexample alongside*)
+To secure web applications, especially those that handle user data, authentication is necessary. When users register, their passwords are stored securely as cryptographic hashes rather than in plain text. This ensures that even if the database is compromised, passwords remain protected. This also largely prevents those with internal access to systems (developers/engineers), access to users passwords. The users password information is safe/secure.
 
-To protect routes in your Express application, you create authentication middleware, which runs before the route handler for each protected request. The authentication middleware checks that the token is present with the HTTP request, typically as the Bearer token in the `Authorization` header. Then it validates the token cryptographically, making sure the signature matches the secret. Then, it stores the user ID and perhaps other information about that user in the `req.user` property as a hash/object, so that it can be used by the controller functions handling each request. For example, this allows you to write a controller function that returns only the information that the logged on user is authorized to see.
+JWT Tokens: Upon login, users receive a JSON Web Token (JWT). This token, signed by the server, identifies the user and is included in subsequent requests. JWTs should not contain sensitive data and are stored in browser storage, which is generally less secure due to vulnerabilities like Cross-Site Scripting (XSS). Cross-Site Scripting (XSS) is a vulnerability that allows attackers to inject malicious scripts into web pages viewed by other users, potentially compromising their data and session.
 
-Some routes are not protected by the authentication middleware, including in particular the logon route and registration routes and any other pages we want all users to be able to see whether or not they are logged in.
+Secure Storage: For improved security, use HTTP-only cookies to store tokens. These cookies are not accessible via JavaScript, reducing the risk of XSS attacks. Ensure cookies are protected against Cross-Site Request Forgery (CSRF) by using appropriate measures like the host-csrf package. The CSRF package helps prevent Cross-Site Request Forgery (CSRF) attacks by ensuring that requests to a server are made intentionally by the authenticated user, not an attacker.
 
-Cryptography is complicated, and you shouldn’t try to do your own. In this assignment, we use the `jsonwebtoken` [npm module](https://www.npmjs.com/package/jsonwebtoken) to create the tokens (at logon time) and to validate tokens (in the middleware of authenticated routes). For this lesson, we won’t store the user information, which means that the user is not registered and the password is not validated. (We’ll do that in a later lesson.) Instead, the user enters an ID and password and a JWT token is created. Then the token is used to access the protected route.
+Route Protection: In Express applications, use authentication middleware to protect routes. The middleware checks for and validates the JWT, storing user details in req.user for use by route handlers. Public routes (e.g., login and registration) should remain accessible without authentication.
 
-### Concepts: Error Handling
+Error Handling: 
 
-The instructor shows how to throw errors, such as authentication errors, and how to handle them in an error handler. The elements of error handling are as follows:
+Errors HAPPEN, it's best to prepare for them. Handle errors with the following: 
 
-* The `express-async-errors` package is installed. It will catch errors thrown in your controllers and send them on to the process error handler. This prevents you from having to write `try...catch` blocks in all of your controllers.
-* A `StatusError` class that can be instantiated when an error occurs. This class should extend the built-in `Error` class. It should have a constructor that takes two parameters, (1) the error message and (2) a number that is the HTTP status code.
-* Error handling middleware. This is called as a result of an `app.use()` statement that appears after all of your routes. It must be declared with four parameters, which are named `err`, `req`, `res`, and `next`.
+-express-async-errors to manage asynchronous errors.
 
-The error handler has to return something to the caller, as otherwise the caller would just hang indefinitely waiting on the HTTP response. So it returns an appropriate HTTP result code, along with a descriptive error message. As this is an API, the error message is returned as JSON. If there is an error in your code, the error handler is invoked. Some errors are expected, and in this case the error handler can return a descriptive error message and an appropriate HTTP result code to the caller. For example, you might have a validation error when creating or updating an entry. In your error handler, you need to parse the validation error to get a useful error message, such as how one or several attributes failed the validation. Authentication errors are also expected, for example when the user enters an invalid email or password when logging in. “Cast” errors can occur if the request includes an ID that is not a valid Mongo object ID, so this is an expected error and you can return a 404\. Please look at the instructor’s code to see how these cases are handled.
+-A StatusError class for structured error messages and HTTP status codes.
 
-But some errors are not expected — that is, if your code is working right, they should never occur. An example is a variable reference error caused by a code bug. For these, it is not a good idea to give the original error message back to the user, as it is not friendly and it discloses code internals. So you return a message such as “A server error occurred.” with a 500 result code, and you also do a console log of such errors, so that you can find the bug. The instructor does not do this logging, but he should.
+-An error handling middleware to return appropriate responses, including descriptive messages for expected errors (like validation issues) and generic messages for unexpected errors (server crashes or unhandled exceptions, like null reference errors, edge cases).
+Example: 
 
 The `StatusError` class could look like this:
+
+# Refresh:
+A class it is a blueprint for creating objects with actual values and states.
 
 ```javascript
 class StatusError extends Error {
@@ -57,6 +64,51 @@ throw new StatusError(
 
 Then you add appropriate code to the error handler to handle this case, sending back the status code and an appropriate JSON message to the caller.
 
-## Continuing with the Video
+
+## Continuing with the Video- DON'T LOSE STEAM, SECURITY IS ESSENTIAL!! YOU GOT THIS! ONE MORE STEP AFTER THIS!
 
 The video instruction for this lesson starts at 5:05:30 of **[this video](https://youtu.be/rltfdjcXjmk?t=18325)** and continues to 6:28:35.
+
+
+
+We want to give you an opportunity to get creative and to do your own work, so for this assignment, you should try creating your own Express applications. Reminder, this is the funnest part where you get to be independent and establish muscle memory. 
+
+
+
+1. **Setup:**
+   - **Switch to the `05-JWT-Basics` directory and create a `week8` branch.**
+     - *Why:* This ensures you're working in the correct directory and on a separate branch for this week’s assignment.
+   - **Create a `preferred` folder inside `05-JWT-Basics`.**
+     - *Why:* Organizes your work by keeping it separate from other assignments or example code.
+
+2. **Create Express Application:**
+   - **Run `npm init` and install `express`, `jsonwebtoken`, and `dotenv`.**
+     - *Why:* Initializes a new Node.js project and installs the necessary packages for building and securing your application.
+   - **Create a `.gitignore` file with `.env` and `/node_modules`.**
+     - *Why:* Prevents sensitive information and unnecessary files from being tracked by Git.
+
+3. **Application Structure:**
+   - **Create `app.js` and organize into `routes`, `middleware`, and `controllers` directories.**
+     - *Why:* Follows best practices for code organization, making your application modular and easier to manage.
+
+4. **JWT Implementation:**
+   - **Use `jsonwebtoken` functions `jwt.sign` and `jwt.verify`.**
+     - *Why:* `jwt.sign` generates tokens and `jwt.verify` validates them, essential for secure authentication.
+   - **Generate a secure key using [this generator](https://www.random.org/strings/).**
+     - *Why:* Ensures your JWTs are secure by using a strong, unpredictable key.
+
+5. **Routes:**
+   - **Create the `POST /api/v1/logon` route:**
+     - *Why:* Allows users to log in and receive a token, which is necessary for authentication.
+   - **Create the `GET /api/v1/hello` route:**
+     - *Why:* Provides a protected endpoint that requires a valid token, demonstrating how to secure routes with JWT.
+
+6. **Testing with Postman:**
+   - **For the `POST` request: Get and copy the token.**
+     - *Why:* You need the token to authenticate requests to protected routes.
+   - **For the `GET` request: Configure authorization with the token in Postman.**
+     - *Why:* Tests that your application correctly validates the token and handles protected routes.
+
+7. **Optional Frontend:**
+   - **Create a simple HTML/JS front end in `preferred/public`.**
+     - *Why:* Provides a user interface to interact with your backend, demonstrating how front-end and back-end can work together.

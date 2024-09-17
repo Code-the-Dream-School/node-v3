@@ -14,14 +14,25 @@ result = result.select(fieldsList);
 const products = await result;
 ```
 
-How can this work? Isn’t `Product.find` asynchronous? The reason it works is that `Product.find` doesn’t return a `Promise`. It returns something that works like a Promise, but has extended capabilities. This is called a “then-able”. In this case, the thenable allows the search to be further defined. The `Product.find` call does not immediately send anything to the Mongo database, until `await` (or `.then`) is called on the thenable. Only then is the fully qualified search is sent to the database, and the Promise is resolved, and the products found by the search are returned.
+### How Can This Work? Isn’t `Product.find` Asynchronous?
+
+`Product.find` is indeed asynchronous, but it doesn’t return a standard `Promise`. Instead, it returns a special type of object called a "thenable." A thenable acts like a `Promise` but has additional features.
+
+- **What is a Thenable?**  
+  A thenable is an object that has methods like `.then`, allowing you to chain additional actions and refine your query.
+
+- **How Does It Work?**  
+  The `Product.find` call doesn’t immediately send a query to the MongoDB database. Instead, it returns a thenable that waits for further instructions.
+
+- **When is the Query Sent?**  
+  The actual database query is sent when you use `await` (or `.then`) on the thenable. At that point, the fully defined query is executed, the `Promise` is resolved, and the results are returned.
 
 ### Concept: Regular Expressions
 
-Regular expressions provide a general purpose string parsing syntax. A regular expression can be used to identify strings that match a pattern. Regular expressions can also be used to create modified strings by substituting character patterns. There are several tutorials on regular expressions on the web. Here is a selection of them:
+A regular expression can be used to identify strings that match a pattern. Like verification for email and phone number strings for example. Regular expressions can also be used to create modified strings by substituting character patterns. There are several tutorials on regular expressions on the web. Here is a selection of them:
 
 * [Regex Tutorial](https://regexlearn.com/)
 * [Game to help learn regex](http://play.inginf.units.it/#/)
 * [Interactive regex exercises](https://regexone.com/)
 
-In this course, we will not teach the use of regular expressions, but you should be aware of their purpose. To complete your homework, you can just copy the regular expressions used by the instructor from their location in the final directory.
+In this course, we will not teach the use of regular expressions, but you should absolutely be aware of their purpose. They are often used in most fullstack positions. Most developers don't have the regex syntax memorized, but they have a good grasp of the concept and ability to navigate the documentation. To complete your homework, you can just copy the regular expressions used by the instructor from their location in the final directory.

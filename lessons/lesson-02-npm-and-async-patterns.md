@@ -1,3 +1,30 @@
-This lesson covers how to use the node package manager npm to install additional modules from the npm library. It also covers event processing and async patterns in node. There are several introductory videos to watch. **[This link](https://medium.com/@mmoshikoo/event-loop-in-nodejs-visualized-235867255e81)** and **[this video](https://www.youtube.com/watch?v=8aGhZQkoFbQ)** cover the event loop, and are referred to as external resources in the main video. **[This video](https://www.youtube.com/watch?v=cFTFtuEQ-10)** covers try/catch/throw error handling in JavaScript, which is critical when writing asynchronous code. You continue watching **[this video](https://youtu.be/Oe421EPjeBE?t=6357)**. This week, you watch from 1:45:57 of the video to 3:40:46\. As before, the video is broken up into chapters, so that you can review chapters as needed to complete the programming assignment. **Important:** At about 2:03 of the video, the instructor does some git operations. **Do not do these.** You do need to create the .gitignore file, but you definitely do not do a git init inside the answers directory. That would create a git repository nested within your existing repository, which is a mess. In general, in this and all future videos, ignore any git operations the instructor performs. You already have the git repository you need.
+# Lesson Overview
 
-{edit}
+This lesson covers:
+
+1. **Using npm:**
+   - **npm** aka Node Package Manager is a tool for installing additional packages (modules) for your Node.js projects.
+   - Module by definition: a self contained unit, encapsulated and functional PART of larger system  
+
+2. **Event Processing and Async Patterns in Node.js:**
+   - Learn about how Node.js handles events and works with asynchronous code.
+
+## Videos to Watch
+
+1. **Event Loop:**
+   - [Read this article](https://medium.com/@mmoshikoo/event-loop-in-nodejs-visualized-235867255e81)
+   - [Watch this video](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
+
+2. **Error Handling with try/catch/throw:**
+   - [Watch this video](https://www.youtube.com/watch?v=cFTFtuEQ-10)
+
+3. **Main Video:**
+   - Watch from **1:45:57** to **3:40:46**.
+   - [Watch here](https://youtu.be/Oe421EPjeBE?t=6357)
+
+## Important Notes
+
+- **Do not follow the git commands** shown around **2:03** in the main video.
+- **Create the `.gitignore` file** as instructed.
+- **Do not run `git init`** inside the `answers` directory. This will create a nested git repository, which can cause problems.
+- **Ignore all git operations** shown in this and future videos. You already have the git repository you need.

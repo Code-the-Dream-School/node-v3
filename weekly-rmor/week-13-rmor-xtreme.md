@@ -16,6 +16,15 @@ b) .resolve()
 c) .await()
 d) .sync()
 
+
+What is the primary purpose of using regular expressions (regex)?
+
+A) To format text by adding spaces and punctuation.
+B) To perform complex mathematical calculations and solve equations.
+C) To search for, match, and manipulate specific patterns within text data.
+D) To encrypt and decrypt sensitive information for secure communication.
+
+
 What does Express do for Node.js? (Select all that apply)
 
 a) Provides a framework for building web applications and APIs

@@ -1,3 +1,46 @@
-You will finish watching **[the video from the last few weeks](https://youtu.be/Oe421EPjeBE?t=13246)**. This week, you watch from 6:10:46 of the video to the end. The initial focus is on middleware. Then each of the HTTP methods involved in API development are covered: `GET`, `POST`, `PUT`, `PATCH`, and `DELETE`. As routes for each of these API methods are implemented, you will test them using Postman. You then refactor the code, to separate out the router and controller functions.
+# Video and Learning Objectives
 
-The front end calls the APIs in two ways, first as browser `GET` and `POST` requests coming from a standard HTML page, and second via JavaScript in the browser that issues `GET`, `POST`, `PUT`, and `DELETE` requests. You can find the front end in the `methods-public` directory. Study the two HTML files in this directory. They show you how to call the back end from the front end, using either ordinary HTML or JavaScript. When ordinary HTML is used, only GET and POST requests are supported, because those are the only operations a browser can natively do; and the `POST` request sends form-encoded data. When JavaScript is used, all HTTP operations are supported, and JSON is used to send and receive data. Parsing of the body of the request, for form-encoded and JSON data, is explained in the video.
+
+## Refresh
+JSON (JavaScript Object Notation) is a simple format for storing and exchanging data, which is consistent and easy to read and write for both humans and machines.
+
+## Watch the Video
+
+- Finish watching **[this video](https://youtu.be/Oe421EPjeBE?t=13246)**.
+- Focus on the part from **6:10:46** to the end of the video.
+- The video explains how to handle form data and JSON data in requests and responses.
+
+## What You Will Learn
+
+1. **Middleware**
+   - Learn about middleware, which is code that runs before your main request handlers.
+
+2. **HTTP Methods**
+   - How you will use different HTTP methods in your API development:
+     - **`GET`**: Retrieve data.
+     - **`POST`**: Send new data.
+     - **`PUT`**: Update existing data.
+     - **`PATCH`**: Partially update data.
+     - **`DELETE`**: Remove data.
+
+3. **Testing with Postman**
+   - Test these HTTP methods using Postman to make sure requests and responses are working as expected.
+
+
+4. **Refactoring Code**
+   - Improve your code by separating the router and controller functions.
+
+## Front End Interaction
+
+- **Two Ways to Call APIs:**
+  1. **Using HTML**
+     - Send `GET` and `POST` requests from a standard HTML page.
+     - `POST` requests send form data.
+
+  2. **Using JavaScript**
+     - JavaScript can send `GET`, `POST`, `PUT`, and `DELETE` requests.
+     - Use JSON to send and receive data.
+
+- **Find the Front End**
+  - Check the `methods-public` directory.
+  - Review the two HTML files to see how to call the backend using HTML and JavaScript.

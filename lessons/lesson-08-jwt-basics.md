@@ -9,6 +9,7 @@ This lesson is a crunch, but stay focused, stay alert. A holiday break is on the
 -Use JWTs for authentication, but prefer HTTP-only cookies for better security.
 -Protect routes with middleware and handle errors with clear, structured responses.
 -Authentication with JWT Tokens
+-Security Testing
 
 ## Refresh
 Client-server architecture involves:

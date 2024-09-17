@@ -1,6 +1,6 @@
 In this lesson, you learn `EJS` (Embedded Javascript), a templating language for Express. The templates contain embedded JavaScript, which is executed on the server side. This constructs an ordinary HTML page, but with dynamic content. Because the embedded JavaScript runs on the server, before the page is sent to the client, dynamic content can be delivered, such as information from a database. 
 
-This allows you as a developer to "inject" data and functionality into your html.
+This allows you as a developer to directly insert data and functionality into your html.
 This is called “server-side rendering”. The templates are ordinary HTML files, which may be combined with CSS and client-side JavaScript.
 
 Server-side rendering is in some respects easier for you as the developer than writing first an API and then a front end for it, where the front end makes fetch calls to the API. On the other hand, if you don’t create an API, you can’t access the data via React or other front ends that run outside the application itself. There are other advantages and disadvantages. Frequently, an application will use both methods, using some server-side rendering for the administrator user interface and front-end/back-end for the end-user interface. 

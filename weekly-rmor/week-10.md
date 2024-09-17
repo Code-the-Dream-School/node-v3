@@ -6,6 +6,14 @@ Don't worry it's not a proper test/quiz.
 You can submit more than once.
 Here are the questions to expect ahead of time: 
 
+1. What is the primary purpose of using JSON Web Tokens (JWTs) in a Node.js Express API?
+
+
+a) To store large amounts of user data on the server
+b) To authenticate and authorize users securely
+c) To speed up the API response time
+d) To handle database transactions
+
 
 Which middleware function is commonly used to catch and handle errors in an Express application?
 

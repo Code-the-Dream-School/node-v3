@@ -19,3 +19,6 @@ Please answer the below prompts in your assignment submission:
 Do you already have a problem solving process in place that you’ve found effective? If so, tell us about it!
 How does problem solving show up through other hobbies or activities in your life?
 Have you observed others in the class solving problems differently than you do? What have you learned from their problem solving techniques?
+
+
+

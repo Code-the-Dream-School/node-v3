@@ -466,6 +466,10 @@ That causes the authentication middleware to run before the `secretWordRouter`, 
 
 As usual, add and commit your changes and push the `lesson13` branch to your Github. Then create the pull request and include the link in your homework submission.
 
-### Mindset Materials
 
-### Hungry For More
+## Hungry For More
+Introducing Typescript, Let's Go Docsss!!
+
+<https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html>
+
+<https://www.typescriptlang.org/docs/>

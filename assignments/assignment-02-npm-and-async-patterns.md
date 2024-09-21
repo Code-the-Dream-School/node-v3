@@ -183,7 +183,3 @@ That’s all for this week, great job! Note, that while the `01-node-tutorial` f
 
 When you have completed your programming assignment, do a `git add` for all your changes to the branch, commit the changes, and push the changes to your repository. Then create a pull request. A link to the pull request is to be included in your homework submisson.
 
-
-### Mindset Materials
-
-## Hungry For More

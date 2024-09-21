@@ -36,3 +36,20 @@ A regular expression can be used to identify strings that match a pattern. Like 
 * [Interactive regex exercises](https://regexone.com/)
 
 In this course, we will not teach the use of regular expressions, but you should absolutely be aware of their purpose. They are often used in most fullstack positions. Most developers don't have the regex syntax memorized, but they have a good grasp of the concept and ability to navigate the documentation. To complete your homework, you can just copy the regular expressions used by the instructor from their location in the final directory.
+
+
+### Debugging - part 1
+
+By this stage in the course, you’ve probably run into a bug or two that has taken some time—maybe much longer than your anticipated!—to figure out, or perhaps one that required showing your code to a mentor to get unstuck. If you did work with a mentor to figure out that bug, you likely observed them put a few debugging practices into action.
+
+Debugging is the process of working through technical challenges when something is broken or not working as expected, and it is a HUGE part of most developer’s day-to-day. Ideally, we would write beautiful, perfect code the first time around and introduce no bugs… but we’re human after all, so that’s not the reality.
+
+Given, we humans do (often) introduce bugs into our programs, it’s important to invest time into strengthening your debugging processes. Read this article about some common and helpful debugging practices. By coming up with hypotheses, observing and investigating how things are working, and piecing together the clues to figure out what’s going on is the best way to figure out how to fix something!
+
+Please answer the below prompts in your assignment submission:
+
+When asked to think about debugging, what are the first 3 adjectives that jump to mind?
+Are there any debugging practices that you’ve already tried and found helpful?
+Any you haven’t tried yet, but want to practice in this upcoming week?
+
+

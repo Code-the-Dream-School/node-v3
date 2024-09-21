@@ -11,3 +11,5 @@ The useful parts of the video resume about 3:58:00\. At about 5:18:13 of the vid
 * Delete
 
 Each operation goes to a particular URL, and there may be parameters in the URL as is explained in the lesson. In addition, the `POST`, `PUT`, and `PATCH` operations may pass along JSON data in the body of the request. JSON data is returned from the server in the body of the response. (It is possible to write APIs that don’t use JSON, but in this class JSON is always used.) If you need to learn or review JSON, a basic introduction is at this link: <https://www.digitalocean.com/community/tutorials/an-introduction-to-json>
+
+

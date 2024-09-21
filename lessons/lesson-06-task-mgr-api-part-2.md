@@ -24,3 +24,5 @@ const getTask = asyncWrapper(async (req, res, next) => {
 ```
 
 As you will see in the lessons that follow, you do not have to always create the `asyncWrapper` middleware, because you can instead use an NPM package called `express-async-errors` that provides the same capability.
+
+

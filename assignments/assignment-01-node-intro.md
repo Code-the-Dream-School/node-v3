@@ -101,18 +101,26 @@ Once you have created the pull request, you can copy the URL to link the pull re
 When you submit your homework, you also submit your answers to the mindset assignment, if there is one for that lesson.
 
 
-### Mindset Materials *include AI first
 
-Mindset Assignment
-AI - tool or weapon?
+### Mindset Assignment
+Information Literacy / AI continued
 
-This topic is a popular one these days... Artificial Intelligence. Countless news reports have praised the capabilities of this new tech tool, and also warned against the dangers. While intelligence is in the name of the tool, it’s important we identify how AI is different from human intelligence:
+Have you ever gotten advice from someone, that turned out to be wrong, perhaps bad advice or just not applicable to you? The internet is a powerful tool to provide information to the masses, but there isn’t anything in place that regulates whether that information is accurate, and it isn’t always immediately apparent when information is or is not applicable to what you’re experiencing. As developers you’ll rely on the internet a lot, but that doesn’t mean all the answers you find will be correct, the best solution, or helpful.
 
-- AI doesn't have volition or a sense of self
-- AI doesn't have long term memory between sessions, each session is independent
-- AI is essentially providing a generalized consensus of its training data
-- Unless combined with a web search like Bing Chat, AI’s knowledge can be out of date
-- AI sometimes make mistakes providing incorrect or even absurd answers (but then so do humans! so this is actually a similarity or rather a reflection of humanity within a tool humans created)
-- Like anything else on the internet, AI answers need to be verified
+Information literacy is the ability to identify, find, evaluate, and use information effectively. In technology, this often translates not only to assessing the accuracy of answers but also how to find a solution that aligns with your project specifications (ex. Did you find an article with a solution to your problem, but the solution is for someone using a different version of Ruby or NPM?) The specs may not always be a perfect match, but could still shed light on a shared root cause.
 
-## Hungry For More
+Some helpful tools that equip you to have stronger information literacy are:
+
+ALWAYS check date of article or posting, especially with StackOverflow - versions and problems rapidly change in the world of tech. The first thing you should always verify is the WHEN, when was this information posted.
+
+Know your own specifications (what tools + versions you’re using) so you can be critical about the answers you read.
+Is this information “from the source” (official developer documentation) or second hand (a tutorial or blog post)? The latter may warrant some additional skepticism—when in doubt start with the source, and then look to secondary resources to supplement.
+Is this a site you trust and has helped you before reliably? Navigating information sources takes time to get the hang of, so incorporate some of the tools we’ve covered earlier regarding asking for help, debugging, being curious and willing to try new things, and being ok with not knowing the answer at first!
+
+Lastly, referring to Documentation (directly from whatever technology you are using) should always be your go to when applicable. Documentation will always provide you accurate information.  
+
+Please answer the below prompts in your assignment submission:
+
+When was a time you got misinformation or bad advice? What happened? Also consider any time an artificial intelligence tool has given you bad/weird answers. Share about that experience here.
+What are some ‘clues’ that you use to help you assess whether a resource is applicable/trustworthy or not? What are some ways you can verify the information you got from AI was accurate/current?
+What are some ways you’ll build on your information literacy either in your personal life or as a developer?

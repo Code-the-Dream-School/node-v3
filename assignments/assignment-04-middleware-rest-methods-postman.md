@@ -78,7 +78,3 @@ Then change the `router.get` and `router.post` statements to call these function
 
 Then move the logic for the statement to `controllers/people.js`, and update the `module.exports` statement in that file, as well as the require statement in the `routes/people.js`, so that the route calls the controller function you create. Add a `router.put` statement to `routes/people.j`s to update the people entry if it is found, and to return an error if it isn’t. The processing for this should be in the controller. Do a `router.delete` statement as well. Test these using Postman. For the delete, you might use `Array.filter()` to create the updated people array.
 
-
-### Mindset Materials
-
-## Hungry For More

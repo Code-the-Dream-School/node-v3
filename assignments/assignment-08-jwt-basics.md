@@ -41,6 +41,17 @@ This code reads the `"token"` attribute from the response JSON and saves it in t
 Next, open the `GET` request authorization again. Click on authorization, Bearer. This time, for the token value, put `{{token}}`. This uses the token variable from the environment. Then save and run the request. It should work as before.
 
 
-### Mindset Materials
+Mindset Assignment
+Asking for Help - part 2
 
-### Hungry For More
+At the start of class we discussed how to effectively ask for help (the Lesson 8 JWT Basics week). Feel free to review that topic and recall your answers from that mindset assignment. We’ll be talking about asking for help again, but this time let’s focus on the _when _since we’ve already covered the how.
+At the beginning of this course (or at the beginning of your first ever course) you may have wanted to ask for help as soon as you hit a problem and before you even tried to debug or problem solve on your own. You don’t have to do that anymore since you have those problem solving and debugging processes we’ve been talking about. But the opposite can happen too; sometimes you get so determined to solve the problem on your own that you spend hours longer than you needed to trying to fix something, when asking for help could have saved you time and frustration.
+Read this article about knowing when to ask for help at work, then answer the following questions:
+
+<https://hbr.org/2021/04/how-to-ask-for-help-at-work>
+
+Please answer the below prompts in your assignment submission:
+
+Have you implemented/used any new strategies since the previous post on how to ask for help? If so what were they and how did they turn out for you?
+After reading the article what changes (if any) will you make to your strategy?
+What are some ways you can determine which “circle” (inner circle of things you know, middle circle of things you can figure out on your own, outer circle of things you don’t know and can’t learn by yourself) your blocker/bug/issue falls into?

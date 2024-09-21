@@ -4,3 +4,4 @@ Be aware of this **[descriptive introduction to Node](https://medium.com/@franks
 
 Watch from 0:00:00 to 1:45:57 of **[this video](https://www.youtube.com/watch?v=Oe421EPjeBE)**. You may first want to review the coding assignment below. In your assignment, you create programs similar to those  
 that the instructor demonstrates.
+

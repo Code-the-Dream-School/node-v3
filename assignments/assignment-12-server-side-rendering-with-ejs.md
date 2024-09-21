@@ -373,6 +373,33 @@ To submit your work, you add, commit, and push your branch as usual, create a pu
 
 
 
-### Mindset Materials
 
-### Hungry For More
+
+## Mindset
+
+This week we’ll be getting in touch with our creative side and explore visual hierarchy. Visual hierarchy is how we decide where to place pieces of our site so they’ll be easy to find, interact with, or stand out. Have you ever been somewhere (in person or on the web) that was new to you and you needed a minute to find your way around? If it was a physical location, how did you find the exits/bathrooms/stairs? If it was a website, were you able to find the page that had the information you wanted easily, like the product description page? Visual hierarchy goes a long way in whether or not the user has an easy and pleasant experience navigating their environment, or a challenging and frustrating time.
+
+Check out this article:
+<https://www.loop11.com/key-principles-of-visual-hierarchy-in-ux-design/>
+
+ Design is more than just colors and fonts as you’ll find when reading that article. Where you place things, how much space you put around them, and the fonts and colors too, all go into the design of a site. And just like whether or not there are clear bathroom signs, your design choices can make for a great or uncomfortable experience. Once you’ve taken a look at that article…
+Please answer the below prompts in your assignment submission:
+
+Think about a time when a layout personally impacted your experience (like the examples in the first paragraph) and describe the scene for us. Also share how you felt when you could/couldn’t find what you were looking for.
+In the visual hierarchy article, were there topics that surprised you? If so, which one(s) and why?
+What are some of your most favorite and least favorite design features as a user?
+
+
+
+## Hungry For More (keep on deck)
+Here is a review of CSS
+<https://www.geeksforgeeks.org/css-cheat-sheet-a-basic-guide-to-css/>
+
+Play some more games!
+<https://dev.to/dailydevtips1/10-amazing-games-to-learn-css-382i>
+
+Your task for mindset is to look into **libraries and frameworks** like **Bootstrap** and more. Here are some lists of the popular ones. 
+<https://www.creative-tim.com/blog/educational-tech/bootstrap-alternatives/>
+<https://thectoclub.com/tools/bootstrap-alternative/>
+
+

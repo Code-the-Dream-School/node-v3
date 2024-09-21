@@ -53,6 +53,32 @@ You can then bring up the settings for VSCode by typing Ctrl, (the ctrl key plus
 
 That completes Windows specific setup.
 
+
+## AI - tool or weapon?
+
+This topic is a popular one these days... Artificial Intelligence. Countless news reports have praised the capabilities of this new tech tool, and also warned against the dangers. While intelligence is in the name of the tool, it’s important we identify how AI is different from human intelligence:
+
+- AI doesn't have volition or a sense of self
+- AI doesn't have long term memory between sessions, each session is independent
+- AI is essentially providing a generalized consensus of its training data
+- Unless combined with a web search like Bing Chat, AI’s knowledge can be out of date
+- AI sometimes make mistakes providing incorrect or even absurd answers (but then so do humans! so this is actually a similarity or rather a reflection of humanity within a tool humans created)
+- Like anything else on the internet, AI answers need to be verified
+
+Take a few minutes now and watch at least these 15 minutes (from timestamp 5:33 to about 18:00) of this podcast interview
+
+ with the creator of Khan Academy (the tool you used for your prework). The interviewer, Adam Grant, asks Sal Khan about his thoughts on using AI in learning.
+
+Have you ever used any AI tools (ex. chatGPT, Grammerly, Dall-E, etc.)? If yes, what did you use it for? If no, did you choose not to use AI, or you just haven't explored it/aren't aware of how to use it?
+What did you think about your interaction with AI?
+What are ways you think AI can help you as you learn content throughout this class?
+What are ways that AI can cause frustration or negatively impact your learning?
+
+If you're interested in leveraging AI throughout class, download for free these articles on how to use AI for good in your learning:
+Help understanding complex topics
+Help to create study plans and beat procrastination
+
+
 ## Your Assignments
 
 For each of the assignments, you will have a starter Git repository. To do the assignments, you will have to have a github account, if you don’t have one already. You open the link to the starter repository, and click on the fork button in the upper right to make a fork of that repository in your own github account. Then, you clone your fork of the repository to your development workstation. This is done with the git clone command, passing the URL of your repository. It is important that you clone from your fork, and not from the starter repository.

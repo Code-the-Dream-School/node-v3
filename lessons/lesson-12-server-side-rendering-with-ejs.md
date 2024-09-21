@@ -69,3 +69,7 @@ Please be sure that you understand where each piece of JavaScript executes!
 The JavaScript for your controllers, routes, middleware, etc. executes on the server side. If you do a `console.log` for this code, it appears in the server terminal. The code you put into an EJS file also executes on the server side, to customize the page with variable data before it is sent to the browser.
 
 However, you can also put JavaScript into an HTML or EJS page, or load it from a script, where the JavaScript is _not_ within the EJS `<% %>` enclosure. That JavaScript is loaded by the browser and runs in the browser context, which means that it has access to the window and the DOM, but it does not have access to server side data and the database. Anything logged by `console.log` in thatcase would appear in the browser DevTools console.
+
+
+
+

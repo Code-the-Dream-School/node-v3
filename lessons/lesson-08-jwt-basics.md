@@ -29,6 +29,8 @@ Secure Storage: For improved security, use HTTP-only cookies to store tokens. Th
 
 Route Protection: In Express applications, use authentication middleware to protect routes. The middleware checks for and validates the JWT, storing user details in req.user for use by route handlers. Public routes (e.g., login and registration) should remain accessible without authentication.
 
+Regular security testing is crucial to protect your Node.js CRUD application from common vulnerabilities. By focusing on input validation, authentication, data security, and error handling, and using appropriate tools, you can ensure that your application remains secure.
+
 Error Handling: 
 
 Errors HAPPEN, it's best to prepare for them. Handle errors with the following: 

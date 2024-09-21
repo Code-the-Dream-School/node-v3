@@ -5,7 +5,7 @@ RmRmor reviews previous weeks materials.
 Don't worry it's not a proper test/quiz.
 You can submit more than once.
 Here are the questions to expect ahead of time: 
-
+(Add more debugging questions)
 
 
 In Mongoose, which method is used to handle asynchronous operations with thenables (i.e., Promises) for querying a MongoDB database?

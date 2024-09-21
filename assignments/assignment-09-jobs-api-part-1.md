@@ -18,6 +18,14 @@ You can choose to just repeat the work that the instructor shows, but it is bett
 
 
 
-### Mindset Materials
 
-### Hungry For More
+## Mindset (addition)
+Willingness to experiment and the article should be replaced with this Ted Talk https://www.youtube.com/watch?v=eoYim08bynA
+The how to experiment section in this article 
+https://www.unhcr.org/innovation/why-theres-no-innovation-without-experimentation/
+
+
+## Hungry for More
+CSS review that's also loads of fun!
+Play some Flexbox Froggy and Grid Garden more if you have time (Keep this on deck)
+<https://dev.to/dailydevtips1/10-amazing-games-to-learn-css-382i>

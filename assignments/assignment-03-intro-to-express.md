@@ -52,6 +52,20 @@ What this means, in this case, is that the user wants to see all products where 
 4. Optional additional item: Add a button to your `index.html`. Add JavaScript, either within a `<script>` tag in `index.html` or in a JavaScript file it references (which would also be in the public directory.) When you click the button, your JavaScript would issue a fetch call for `/api/v1/products`. Then you’d add the data you get back to a div in your HTML.
 
 
-### Mindset Materials
+### Mindset Assignment
+Motivation and Mindset
 
-## Hungry For More
+From our experience seeing folks learn new programming skills over the past many cohorts, we have witnessed how much the right mindset makes a difference in building new skills, putting them into practice, and achieving new heights.
+
+When you hear the word mindset, you likely think of growth vs. fixed mindset. And this is one of the most fundamental mindsets to develop as a new software developer! 
+
+<https://www.youtube.com/watch?v=V9ewjjzAlRs>
+
+But developing the right mindset to learn coding doesn’t stop there—we believe there are a number of important mindsets to develop. Each week, throughout this course, we’ll be posting articles and discussion questions here to help give insight into mindsets that can support not only your learning but your long-term career growth as a software developer.
+
+To help us set the stage for our mindsets, we’ll kick off by first thinking about our goals and motivations and reflecting on how growth mindset has impacted our past learning experiences.
+
+Why do you want to be a software developer?
+What do you plan to do with your skills after the class ends?
+Can you think of a time when a growth mindset helped you learn or achieve something new?
+What other mindsets have helped you learn new skills?

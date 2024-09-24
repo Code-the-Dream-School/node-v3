@@ -78,6 +78,16 @@ If you're interested in leveraging AI throughout class, download for free these 
 Help understanding complex topics
 Help to create study plans and beat procrastination
 
+## Auditory Processing with Video Lessons
+It is vital to find the best speed and groove for your learning when it comes to the video lessons. Here's a cool article on processing language. https://blog.cognifit.com/neurons-process-language-at-multiple-speeds/ 
+
+This is a reminder that any video on Youtube can have increased or decreased speed (bottom right settings) and the languages for captions can be toggled to most languages (captions aren't always completely accurate, but it's translated closely overall).
+
+
+## Regular Bookmarking
+It's important to keep your physical workspace clutter free, and also your virtual workspace! While working try to keep your browser tabs under 5 and to keep all related materials bookmarked and ordered on deck based on what you will need each week.
+ 
+##
 
 ## Your Assignments
 

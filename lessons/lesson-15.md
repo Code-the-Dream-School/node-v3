@@ -1,5 +1,6 @@
-### Learning Objectives
-## Continued Lerning Testing
+
+### Continued Learning 
+## Testing
 
 Understand the types of testing used
 Learn about and use Mocha to run tests and Chai to test your code for expected outputs

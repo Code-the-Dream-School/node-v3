@@ -30,27 +30,7 @@ You will notice a `.gitignore` file in the `03-task-manager/starter` directory. 
 In the future, you would create the `.env` file at the start of any project, and you would make sure that the `.gitignore` file includes `.env`, before putting any secrets like the Mongo password into the `.env`. You would never put such secrets in your code, even temporarily.
 
 
-### Mindset Assignment
-Comfort with the Unknown
-
-Being afraid of the unknown is part of the human experience. None of us know what tomorrow may bring. The interesting thing about that fear is that it can be positive or negative. If you’ve been excited about the prospect of starting a new job, starting a new relationship, or venturing to a new place, you’re experiencing the positive side. If you’re worried about something in the future that may be an unpleasant experience like having to confront someone about a problem or ending a personal or professional relationship, you’re experiencing the negative side.
-
-You may be feeling this way in this class; excited to learn new things and start a new chapter in your life, frustrated if you struggle with a concept, happy when you understand and succeed, worried about how to juggle class with the rest of what is going on in your life. Whether your fear of the unknown is positive or negative, read this article about embracing the unknown and how it allows you to continue on your journey and see where it goes.
-
-<https://dev.to/finnhvman/embrace-the-unknown-35an>
-
-“The expert in anything was once a beginner”
-— Helen Hayes
-
-This week think about where you’re at in your journey.
-
-Please answer the below prompts in your assignment submission:
-
-So far in class, have you had any “aha” moments? What have you enjoyed the most? What has been the hardest?
-What were you excited/worried about before class started?
-How do you feel about what’s still to come in this class and in your journey ahead?
-
 ## Coding Challenges:
 You'll notice in your mindset materials for this week that FizzBuzz is mentioned. Let's take a peek at the wonderful world of coding challenges.
 -Make a Leet Code and HackerRank account and solve FizzBuzz
-https://leetcode.com/problems/fizz-buzz/ 
+[https://leetcode.com/problems/fizz-buzz/](https://leetcode.com/problems/fizz-buzz/)

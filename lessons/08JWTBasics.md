@@ -5,17 +5,17 @@ This lesson is a crunch, but stay focused, stay alert. A holiday break is on the
 
 ## Summary:
 
--Store passwords securely using hashes.
--Use JWTs for authentication, but prefer HTTP-only cookies for better security.
--Protect routes with middleware and handle errors with clear, structured responses.
--Authentication with JWT Tokens
--Security Testing
+ - Store passwords securely using hashes.
+ - Use JWTs for authentication, but prefer HTTP-only cookies for better security.
+ - Protect routes with middleware and handle errors with clear, structured responses.
+ - Authentication with JWT Tokens
+ - Security Testing
 
 ## Refresh
 Client-server architecture involves:
 
-Client: Requests and displays data through a web browser or app. (For User, User facing)
-Server: Hosts the application, processes requests, and returns data.
+**Client:** Requests and displays data through a web browser or app. (For User, User facing)</br>
+**Server:** Hosts the application, processes requests, and returns data.
 
 They communicate over the internet using HTTP/HTTPS, enabling dynamic web interactions.
 
@@ -45,7 +45,7 @@ Example:
 The `StatusError` class could look like this:
 
 # Refresh:
-A class it is a blueprint for creating objects with actual values and states.
+A class is a blueprint for creating objects with actual values and states.
 
 ```javascript
 class StatusError extends Error {
@@ -70,8 +70,8 @@ Then you add appropriate code to the error handler to handle this case, sending 
 
 ## Continuing with the Video- DON'T LOSE STEAM, SECURITY IS ESSENTIAL!! YOU GOT THIS! ONE MORE STEP AFTER THIS!
 
-The video instruction for this lesson starts at 5:05:30 of **[this video](https://youtu.be/rltfdjcXjmk?t=18325)** and continues to 6:28:35.
-
+The video instruction for this lesson starts at 5:05:30 and continues to 6:28:35 of this video:
+**[CodingAddict - Node.js Projects](https://youtu.be/rltfdjcXjmk?t=18325)**
 
 
 We want to give you an opportunity to get creative and to do your own work, so for this assignment, you should try creating your own Express applications. Reminder, this is the funnest part where you get to be independent and establish muscle memory. 

@@ -1,14 +1,3 @@
-# Lesson Overview
-
-This lesson covers:
-
-1. **Using npm:**
-   - **npm** aka Node Package Manager is a tool for installing additional packages (modules) for your Node.js projects.
-   - Module by definition: a self contained unit, encapsulated and functional PART of larger system  
-
-2. **Event Processing and Async Patterns in Node.js:**
-   - Learn about how Node.js handles events and works with asynchronous code.
-
 ## Videos to Watch
 
 1. **Event Loop:**

@@ -125,22 +125,18 @@ You need to include the auth middleware in the `app.use`, because these are prot
 The usual steps apply.
 
  
+ ### Mindset Assignment
+## Debugging - part 2
 
+This week we’re thinking about bugs again. Not the creepy-crawly kind, but the ones that cause our code to break, behave differently than how we expect, or provide incorrect output. Having bugs in your code is inevitable. We are all human and thus prone to making mistakes like misspelling a variable or forgetting to convert a string back into a number before we use it to calculate something. Even the most experienced coders will have bugs in their code. The trick is to know an approach for debugging your code. The first step to that uses skills we’ve talked about previously: having a growth mindset, being ok with not knowing everything, being determined to solve the problem, and knowing when to ask for help. You will find a method of attacking those bugs that work best for you, but for now here are some great starting points…
 
-### Mindset 
+The first two paragraphs of this gitconnected article <https://levelup.gitconnected.com/beginner-tips-for-debugging-your-code-3c4e2b42863a> are great advice for every programmer. When you’re still a beginner, a lot of error messages will be overwhelming and won’t make any sense at first. A good practice is to search for the complete error (ex. you get “Uncaught ReferenceError: battlehsip is not defined at index.js:5:20” in your console, so search for “Uncaught ReferenceError” and make a note of the “index.js:5:20” as that tells you the file ‘index.js’, the line ‘5’ and the character on that line ’20’ where the error is occuring)
 
-No coding assignment this week
+From there, use these suggested codeacademy techniques (like printing/console logging your variables right before where the error is, or commenting out your code and the add back in the code line by line until it breaks again) to track down the bug and fix it!
+<https://www.codecademy.com/resources/blog/how-to-debug-your-code/>
+After reading the two articles linked above, please answer the below prompts in your assignment submission:
 
-Self-Motivation
- 
- We hope throughout this course these Mindset Curriculum prompts and materials have helped you strengthen some evergreen skills that will serve you well - no matter what tech stack, language, library, or any other tech tool you’re working with now or in the future!
-Our last assignment will help you spread your wings and fly. As we’ve said multiple times throughout this coursework, the tech field is ever-changing. This article(https://www.bomberbot.com/self-improvement/how-to-design-your-own-learning-plan-to-master-any-tech-stack/) is a great resource to help you create your own path of continued learning in the event there aren’t affordable structured learning opportunities on a topic you want to learn.
-Now that you’re at the end of your advanced class, we hope and expect that you will be ready to start looking for entry level jobs or internships following your Practicum. Read through the transcript of this podcast from CodeNewbie to get some insights on the next chapter of your coding journey!
-From the day you applied to Code the Dream, you became a part of our family. We hope you all stay connected with us through Slack or email. We want to be here for you if you’re facing challenges and we want to be here to cheer when you share your successes.
-If you haven’t already, please connect with us on LinkedIn!
-Please answer the below prompts in your assignment submission:
+Share a recent instance of your code not doing what you expected or wanted it to. How did you find out it wasn’t doing what you wanted it to? What did you do to find out why it wasn’t doing what you wanted it to?
+Once you found the bug, how did you approach fixing it?
+What did you learn from that debugging process that you will carry with you for the next time you’re hunting down a bug to fix?
 
-Time to look back and look forward: When you started this particular class we asked you why you wanted to be a software developer and what you wanted to do with your skills after the class ends. Have your answers changed? What are your answers now?
-What is your plan for the next:
-3 months?
-year?

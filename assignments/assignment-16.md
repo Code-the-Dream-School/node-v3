@@ -1,6 +1,11 @@
-You continue with the same jobs-ejs repository from your previous lesson, but create a new branch called lesson 15.
 
-The instructions below are for the Job model. If you are using a different or modified model, so as to prepare for your final project, you will have to adjust the code below.
+### Week 16 Continued Learning 
+
+## Congratulations on your project completion!! The learning never stops! Here is an additional lesson and assignment to ease you into your indepedent learning
+
+You continue with your project now, but create a new branch called testing. 
+
+The instructions below are for the Job model. If you are using a different or modified model, so as to prepare for your final project, you will have to adjust the code below. Note other adjustments may be necessary for your specific project. Reminder to use all tools available to you.
 
 The first step is to install the packages you will need.  These are development dependencies -- you do not need them in your runtime, if you deploy this application to the internet -- so you install them with the ```--save-dev``` flag.  You need mocha, chai, puppeteer, @faker-js/faker, and factory-bot, as follows:
 ```
@@ -530,6 +535,9 @@ but as this is an async call, you can only do this in the it() sections where yo
 3. (test2) Have the test click on the "Add A Job" button and to wait for the form to come up.  Verify that it is the expected form, and resolve the company and position fields and add button.  
 4. (test3) Type some values into the company and position fields.  Then click on the add button. Wait for the jobs list to come back up, and verify that the message says that the job listing has been added.  Check the database to see that the latest jobs entry has the data entered. You also use Job.find() as in the previous exercise.)
 
-## Submit Your Code
+## Submit and commit Your Code
 
 As usual.
+
+## Mindset
+Make a gratitude list and acknowledge all of your accomplishments these past several months. Hats off to you, developer!

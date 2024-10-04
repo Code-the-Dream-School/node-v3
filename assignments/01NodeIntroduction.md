@@ -98,7 +98,4 @@ Once you have created the pull request, you can copy the URL to link the pull re
 
 <video title="Open a PR walkthrough" src="./images/submit-pr.mp4" controls="controls" width="300" height="150"></video>
 
-When you submit your homework, you also submit your answers to the mindset assignment, if there is one for that lesson.
 
-
-## Hungry For More

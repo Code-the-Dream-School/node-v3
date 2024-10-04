@@ -1,13 +1,13 @@
-## Videos to Watch
+## This week please read and watch the below resources on Event Loops and Error Handling and continue with your main video: 
 
-1. **Event Loop:**
+### 1. **Event Loop:**
    - [Read this article](https://medium.com/@mmoshikoo/event-loop-in-nodejs-visualized-235867255e81)
    - [Watch this video](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
 
-2. **Error Handling with try/catch/throw:**
+### 2. **Error Handling with try/catch/throw:**
    - [Watch this video](https://www.youtube.com/watch?v=cFTFtuEQ-10)
 
-3. **Main Video:**
+### 3. **Main Video:**
    - Watch from **1:45:57** to **3:40:46**.
    - [Watch here](https://youtu.be/Oe421EPjeBE?t=6357)
 

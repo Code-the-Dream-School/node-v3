@@ -7,9 +7,9 @@ Careful!
 Please **don’t clone the original Code-the-Dream repository**,  
 as if you do that, you will not be able to push your work to Github.
 
-![Fork repo screenshot](./images/fork-button.png)
+![Fork repo screenshot](https://github.com/Code-the-Dream-School/node-v3/blob/ddfcd7daf63eab7e0a71ebdfaa26290016760ef7/assignments/images/fork-button.png?raw=true)
 
-![Git clone command screenshot](./images/git-clone.png)
+![Git clone command screenshot](https://github.com/Code-the-Dream-School/node-v3/blob/ddfcd7daf63eab7e0a71ebdfaa26290016760ef7/assignments/images/git-clone.png?raw=true)
 
 You will do all of your work inside the directory created by the `git clone` command. By default, this directory will be called “node-express-course”. Change directories so that you are inside that directory. Then create the **branch** for this week, using the command `git checkout -b week1`.
 

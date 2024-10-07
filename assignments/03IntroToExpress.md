@@ -50,22 +50,3 @@ The parseInt is needed because query parameters are always passed as strings, so
 What this means, in this case, is that the user wants to see all products where the name starts with “al”, but the user wants to see no more than 5 products. When the `app.get` for `/api/v1/query` path is called, `req.query` is a hash that may contain values for “search” or “limit” or both or neither, depending on what the user puts in the query string. Again, there are array methods you can use to find that list. They are `Array.filter()` and `Array.slice()`. Add a new `app.get` statement for `/api/v1/query`, and include logic to handle these query strings. Then test it out.
 3. Add some more logic: you choose! For example, the user might want to send a regular expression instead of search for starting letters. Or the user may only want products that cost less than 20.00.
 4. Optional additional item: Add a button to your `index.html`. Add JavaScript, either within a `<script>` tag in `index.html` or in a JavaScript file it references (which would also be in the public directory.) When you click the button, your JavaScript would issue a fetch call for `/api/v1/products`. Then you’d add the data you get back to a div in your HTML.
-
-
-### Mindset Assignment
-Motivation and Mindset
-
-From our experience seeing folks learn new programming skills over the past many cohorts, we have witnessed how much the right mindset makes a difference in building new skills, putting them into practice, and achieving new heights.
-
-When you hear the word mindset, you likely think of growth vs. fixed mindset. And this is one of the most fundamental mindsets to develop as a new software developer! 
-
-<https://www.youtube.com/watch?v=V9ewjjzAlRs>
-
-But developing the right mindset to learn coding doesn’t stop there—we believe there are a number of important mindsets to develop. Each week, throughout this course, we’ll be posting articles and discussion questions here to help give insight into mindsets that can support not only your learning but your long-term career growth as a software developer.
-
-To help us set the stage for our mindsets, we’ll kick off by first thinking about our goals and motivations and reflecting on how growth mindset has impacted our past learning experiences.
-
-Why do you want to be a software developer?
-What do you plan to do with your skills after the class ends?
-Can you think of a time when a growth mindset helped you learn or achieve something new?
-What other mindsets have helped you learn new skills?

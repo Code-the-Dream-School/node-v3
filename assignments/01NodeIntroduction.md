@@ -7,9 +7,9 @@ Careful!
 Please **don’t clone the original Code-the-Dream repository**,  
 as if you do that, you will not be able to push your work to Github.
 
-![Fork repo screenshot](./images/fork-button.png)
+![Fork repo screenshot](https://github.com/Code-the-Dream-School/node-v3/blob/ddfcd7daf63eab7e0a71ebdfaa26290016760ef7/assignments/images/fork-button.png?raw=true)
 
-![Git clone command screenshot](./images/git-clone.png)
+![Git clone command screenshot](https://github.com/Code-the-Dream-School/node-v3/blob/ddfcd7daf63eab7e0a71ebdfaa26290016760ef7/assignments/images/git-clone.png?raw=true)
 
 You will do all of your work inside the directory created by the `git clone` command. By default, this directory will be called “node-express-course”. Change directories so that you are inside that directory. Then create the **branch** for this week, using the command `git checkout -b week1`.
 
@@ -98,21 +98,4 @@ Once you have created the pull request, you can copy the URL to link the pull re
 
 <video title="Open a PR walkthrough" src="./images/submit-pr.mp4" controls="controls" width="300" height="150"></video>
 
-When you submit your homework, you also submit your answers to the mindset assignment, if there is one for that lesson.
 
-
-### Mindset Materials *include AI first
-
-Mindset Assignment
-AI - tool or weapon?
-
-This topic is a popular one these days... Artificial Intelligence. Countless news reports have praised the capabilities of this new tech tool, and also warned against the dangers. While intelligence is in the name of the tool, it’s important we identify how AI is different from human intelligence:
-
-- AI doesn't have volition or a sense of self
-- AI doesn't have long term memory between sessions, each session is independent
-- AI is essentially providing a generalized consensus of its training data
-- Unless combined with a web search like Bing Chat, AI’s knowledge can be out of date
-- AI sometimes make mistakes providing incorrect or even absurd answers (but then so do humans! so this is actually a similarity or rather a reflection of humanity within a tool humans created)
-- Like anything else on the internet, AI answers need to be verified
-
-## Hungry For More

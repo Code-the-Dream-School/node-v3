@@ -1,4 +1,4 @@
-You should already have done the steps described in the **[Getting Started page](./getting-started-with-node-development.md)**. That page describes how to get git, the VSCode Editor, Node, and Postman all installed. All of those should be installed before you start this lesson.
+You should already have done the steps described in the [Getting Started with Node Development](?page=getting-started-with-node-development) page located in your General Information section of your lesson pages here in the CTD Learns App. That page describes how to get git, the VSCode Editor, Node, and Postman all installed. All of those should be installed before you start this lesson.
 
 The next step is to create a “fork” of your starter repository for this lesson, which is found **[here](https://github.com/Code-the-Dream-School/node-express-course)**. The fork button is on the upper right of that page. Once the fork is complete, you must `git clone` your fork to get the repository files onto your computer.
 

@@ -1,4 +1,5 @@
-You continue watching **[the lesson video from last week](https://youtu.be/Oe421EPjeBE?t=13246)**. This week, you watch from 3:40:48 of the video to 6:10:46.
+You continue watching the lesson video from last week. This week, you **watch from 3:40:48 of the video to 6:10:46.**  Please read the rest of Lesson Materials before you start to view.
+[Node.js and Express.js FreeCodeCamp Video](https://youtu.be/Oe421EPjeBE?t=13246)
 
 This section of the video starts with some slides on how the web works. You do not need to write any code for these slides. Then, at about 3:56:00 of the video, the instructor starts talking about how you download the repository containing the code. **Do not do this.** You already have the code you need, as it is included in the same repository you are using. The instructor also directs you to remove the .git directory. **Do not remove the .git directory.** Because you forked the original repository, you continue to use the git configuration.
 

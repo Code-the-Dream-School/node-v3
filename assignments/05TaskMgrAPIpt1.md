@@ -31,6 +31,6 @@ In the future, you would create the `.env` file at the start of any project, and
 
 
 ## Coding Challenges:
-You'll notice in your mindset materials for this week that FizzBuzz is mentioned. Let's take a peek at the wonderful world of coding challenges.
+You'll notice in the article you will read during your mindset assignment for this week that FizzBuzz and other programming challenges are mentioned. Let's take a peek at the wonderful world of coding challenges.
  - Make a Leet Code and HackerRank account and solve FizzBuzz
 [https://leetcode.com/problems/fizz-buzz/](https://leetcode.com/problems/fizz-buzz/)

@@ -16,15 +16,6 @@ You can choose to just repeat the work that the instructor shows, but it is bett
 
 **Be sure you test each step with Postman, creating a Postman collection of tests just like the instructor is doing.** This Postman collection of tests is used not only to test the API as it runs on your machine, but also, in Lesson 10, to test the application as deployed to Render.com. (We deploy to Render.com instead of to Heroku, as Heroku no longer allows applications to be deployed for free.)
 
-
-
-
-## Mindset (addition)
-Willingness to experiment and the article should be replaced with this Ted Talk https://www.youtube.com/watch?v=eoYim08bynA
-The how to experiment section in this article 
-https://www.unhcr.org/innovation/why-theres-no-innovation-without-experimentation/
-
-
 ## Hungry for More
 CSS review that's also loads of fun!
 Play some Flexbox Froggy and Grid Garden more if you have time (Keep this on deck)

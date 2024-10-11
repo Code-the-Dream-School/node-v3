@@ -24,7 +24,7 @@ This is only in case you aren’t confident that you can complete the preferred 
 
 This is a little complicated, but you should learn to do it for use in future assignments. First click on New in the upper left, and select Environment. Set the title to JWT Basics. Then on the upper right, click on Environments and set it to JWT Basics, to make that environment active.
 
-![Walkthrough of Postman environment intialization](./images/lesson8-postman-init.gif)  
+![Walkthrough of Postman environment intialization](https://github.com/Code-the-Dream-School/node-v3/blob/71907ef9c480a3ce2b4eda9be1145acf4558462e/lessons/images/lesson8-postman-init.gif?raw=true)  
 _(right-click and open image in a new tab to see it a little larger)_
 
 Now open up the POST request for logon. Click on tests. Then enter the following code:
@@ -34,7 +34,7 @@ const jsonData = pm.response.json();
 pm.environment.set("token", jsonData.token);
 ```
 
-![Screenshot of setting a variable from the Postman environment](./images/lesson8-postman-env.png)
+![Screenshot of setting a variable from the Postman environment](https://github.com/Code-the-Dream-School/node-v3/blob/71907ef9c480a3ce2b4eda9be1145acf4558462e/lessons/images/lesson8-postman-env.png?raw=true)
 
 This code reads the `"token"` attribute from the response JSON and saves it in the “token” environment variable that you created earlier. Then save and run the logon request. There is an icon on the upper right with an eye on it. This gives you a look at the environment. You should see the token in the environment.
 

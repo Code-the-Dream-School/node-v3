@@ -1,4 +1,6 @@
-This week begins at 1:29 of **[this video](https://www.youtube.com/watch?v=rltfdjcXjmk&t=5280s)**, and continues until the end of the task manager project, at 3:07:18 of the video.
+This week begin at 1:29 and continue until the end of the task manager project, at 3:07 of the video. 
+
+**[FreeCodeCamp Video](https://www.youtube.com/watch?v=rltfdjcXjmk&t=5280s)**, 
 
 In this lesson you will continue to develop the Task Manager API, testing with Postman as you go. You will add:
 

@@ -1,7 +1,7 @@
 
 ### Concepts: Authentication with JWT Tokens
 
-This lesson is a crunch, but stay focused, stay alert. A holiday break is on the way and a chance to catch up once this loaded lesson is complete. You got this!
+This lesson is a crunch, but stay focused, stay alert. You got this!
 
 ## Summary:
 

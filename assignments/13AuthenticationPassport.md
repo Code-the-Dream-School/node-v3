@@ -462,10 +462,6 @@ app.use("/secretWord", auth, secretWordRouter);
 
 That causes the authentication middleware to run before the `secretWordRouter`, and it redirects if any requests are made for those routes before logon. Try it out: login and verify that you can see and change the secretWord. Then log off and try to go to the `"/secretWord"` URL.
 
-### Submitting Your Work
-
-As usual, add and commit your changes and push the `lesson13` branch to your Github. Then create the pull request and include the link in your homework submission.
-
 
 ## Hungry For More
 Introducing Typescript, Let's Go Docsss!!

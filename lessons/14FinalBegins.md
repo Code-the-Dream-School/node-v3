@@ -5,15 +5,13 @@ As you spend this week working on your final project, keep the following advice 
 ## Developing Your Own Express Application
 For the final project, you will each design and develop your own Express application.  You will have two weeks to complete the project.  As that is a short time for a fully functional application, the applications will have to be relatively simple, with only a few features implemented.
 
-For students who would like to become interns with Code the Dream, the final project is very important, because it is the best indication of how well you would succeed as an intern.
+## Rules to Remember
+It is entirely reasonable to reuse code from your previous class assignments and the provided examples. However, if you do, you need to add at least one additional data model. The additional data model should have at least five attributes, of varying data types, and should include validation for each attribute. You should implement all CRUD operations for this data model, and your user interface should allow each of the CRUD operations to be demonstrated. If you just reuse the models from class examples, that is not an adequate project - you're meant to build on your learning as you will throughout your career as a developer.
 
-## Some Ground Rules
-First, it is entirely reasonable to reuse code from your previous class assignments and the provided examples. However, if you do, you need to add at least one additional data model. The additional data model should have at least five attributes, of varying data types, and should include validation for each attribute. You should implement all CRUD operations for this data model, and your user interface should allow each of the CRUD operations to be demonstrated. If you just reuse the models from class examples, that is not an adequate project.
-
-Second, the purpose is for you to demonstrate that you know Node and Express. The class is not about React or HTML or CSS. So, focus on the rubric instead of on making the application look fancy. Once you have met the requirements of the rubric, if you want to make the application look nice, great! But that is not the focus here.
+Second, the purpose is for you to demonstrate that you know Node and Express so focus on the rubric and the functionality of your application. Once you have met the requirements of the rubric, if you want to make the application look nice, great! But that is not the focus here.
 
 ## Goal of the Application
-The goal of the project is to showcase what you have learned during class. You will have the opportunity to demonstrate your knowledge and creativity. You are required to create an Express application from scratch. A proposal for what your application will do is required to be submitted before you start working on the project.
+The goal of the project is to showcase what you have learned during class. You will have the opportunity to demonstrate your knowledge and creativity. You are required to create an Express application from scratch. 
 
 ## Already Done
 Two weeks ago you submitted your project proposal idea.  You should have already received feedback and/or approval to proceed with your final project.  If you have not, please make a 1:1 appointment with your assignment reviewer or Cohort Leader now to confirm you can proceed with your plan for your final project.  Make sure:

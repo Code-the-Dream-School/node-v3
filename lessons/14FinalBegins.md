@@ -14,7 +14,7 @@ Second, the purpose is for you to demonstrate that you know Node and Express so 
 The goal of the project is to showcase what you have learned during class. You will have the opportunity to demonstrate your knowledge and creativity. You are required to create an Express application from scratch. 
 
 ## Already Done
-Two weeks ago you submitted your project proposal idea.  You should have already received feedback and/or approval to proceed with your final project.  If you have not, please make a 1:1 appointment with your assignment reviewer or Cohort Leader now to confirm you can proceed with your plan for your final project.  Make sure:
+At the end of your week on Server Side Rendering with EJS you submitted your project proposal idea.  You should have already received feedback and/or approval to proceed with your final project.  If you have not, please make a 1:1 appointment with your assignment reviewer or Cohort Leader now to confirm you can proceed with your plan for your final project.  Make sure:
 
 * That your project is doable in the allotted time.  If the project seems too complicated, we may suggest that it be limited to just a few features.
 * That it demonstrates the skills you have learned in the class series so far.  It should not be so simple that it doesn’t show key skills.  

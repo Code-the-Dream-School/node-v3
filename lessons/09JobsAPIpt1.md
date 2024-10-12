@@ -28,7 +28,7 @@ For this lesson, you will create an API only. Although the instructor mentions a
 
 This lesson runs from 6:28:35 to 8:20:35. **Read the Coding Assignment Instructions before watching the video, so that you know how your assignment will differ from the video instructions.**  
 
-**[FreeCodeCamp Video](https://www.youtube.com/watch?v=rltfdjcXjmk?t=23306)**. 
+**[FreeCodeCamp Video](https://www.youtube.com/watch?v=rltfdjcXjmk?t=23306)** 
 
 As with previous lessons, you duplicate the work that the instructor shows, except that instead of creating a Job model, you can choose to create a model of your own choosing. (You can use the `Job` model the instructor uses if you prefer, but it would have to be extended to make a final project.)
 

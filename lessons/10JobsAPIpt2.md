@@ -7,9 +7,13 @@ In this lesson, you complete implementation of the CRUD operations for the API, 
 
 These packages must be used whenever you deploy an application publicly, to minimize the chance of a security exposure. For your class final project, you will use these same packages, because you will deploy your final project on the Internet, and you want it to be secure.
 
-As for the previous lesson, you may duplicate the work that the instructor shows, or if in the last lesson you invented your own model to use instead of the `Job` model, you instead implement CRUD operations for your model. You continue to put your work in the new `06-jobs-api` **repository** that you forked and cloned last session. If you get stuck, answers are in the `node-express -course/06-jobs-api/final` directory, and it’s certainly a good idea to read the instructors code, **but please try to do your own work.** Before you start this lesson, you create the `week10` git branch, **which should be created when the `week9` git branch is active**. This lesson runs from 8:20:35 to 9:34:30 of **[this video](https://youtu.be/rltfdjcXjmk?t=30036)**.
+As for the previous lesson, you may duplicate the work that the instructor shows, or if in the last lesson you invented your own model to use instead of the `Job` model, you instead implement CRUD operations for your model. You continue to put your work in the new `06-jobs-api` **repository** that you forked and cloned last session. If you get stuck, answers are in the `node-express -course/06-jobs-api/final` directory, and it’s certainly a good idea to read the instructors code, **but please try to do your own work.** Before you start this lesson, you create the `week10` git branch, **which should be created when the `week9` git branch is active**. 
 
-The instructor shows how to deploy to Heroku. However, since this video was made, Heroku has announced that they are ending free access for deploying web applications. **Therefore, do not install the Heroku CLI, and do not deploy to Heroku.** Instead, you deploy your application to Render.com. Instructions for deploying to Render.com are found in the [Assignment section](/node-express/lesson10-a1).
+This lesson runs from 8:20:35 to 9:34:30  
+
+**[FreeCodeCamp Video](https://www.youtube.com/watch?v=rltfdjcXjmk?t=30036)**
+
+The instructor shows how to deploy to Heroku. However, since this video was made, Heroku has announced that they are ending free access for deploying web applications. **Therefore, do not install the Heroku CLI, and do not deploy to Heroku.** Instead, you deploy your application to Render.com. Instructions for deploying to Render.com are found in the Assignment section below.
 
 ### Concepts: Internet Deployment
 

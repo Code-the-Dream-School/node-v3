@@ -14,11 +14,11 @@ You can just copy the `.gitignore` file and the `.env` file from the `06-jobs-ap
 
 Next, run `git init` to make the directory a git repository. Then, log into Github and create a new repository called `jobs-ejs`. You create a new repository using the + button in the upper right of your Github screen. You do not use a template, the repository should be public, and you do not create a `README` or a `.gitignore`.
 
-![create new repo button](./images/create-new-repo.png)
+![create new repo button](https://github.com/Code-the-Dream-School/node-v3/blob/cc6ce823ed33ea66a0b939aadf9ec011fda41e62/lessons/images/create-new-repo.png?raw=true)
 
 Once the repository has been created, you need to associate the Github repository with the repository on your laptop. You will see the following screen:
 
-![The github page for a newly created repository](./images/github-new.png)
+![The github page for a newly created repository](https://github.com/Code-the-Dream-School/node-v3/blob/cc6ce823ed33ea66a0b939aadf9ec011fda41e62/lessons/images/github-new.png?raw=true)
 
 Click on the clipboard icon next to the URL to copy it. Then, in your laptop session for the jobs-ejs repository, type the following, where the URL is the one you copied to your clipboard
 
@@ -261,7 +261,7 @@ Then try the <http://localhost:3000/secretWord> URL. You will see that it works 
 
 If you go into developer tools in your browser, and click on the `Application` tab, you can check that a cookie with the name of `connect.sid` has been associated with your browser session.
 
-![screenshot of Application tab for viewing cookies](./images/lesson12-view-cookies.png)
+![screenshot of Application tab for viewing cookies](https://github.com/Code-the-Dream-School/node-v3/blob/cc6ce823ed33ea66a0b939aadf9ec011fda41e62/lessons/images/lesson12-view-cookies.png?raw=true)
 
 This is the key used to retrieve session data. You can also see that the `HttpOnly` flag is set, so that browser-side code can’t access this cookie.
 
@@ -372,25 +372,6 @@ This is how `res.locals` is loaded with the right stuff. However, we’d want to
 To submit your work, you add, commit, and push your branch as usual, create a pull request and include a link to your pull request in the homework submission. In the next lesson, we will implement authentication using Passport, and in the final lesson, we’ll manage Jobs entries in the database.
 
 
-
-
-
-## Mindset
-
-This week we’ll be getting in touch with our creative side and explore visual hierarchy. Visual hierarchy is how we decide where to place pieces of our site so they’ll be easy to find, interact with, or stand out. Have you ever been somewhere (in person or on the web) that was new to you and you needed a minute to find your way around? If it was a physical location, how did you find the exits/bathrooms/stairs? If it was a website, were you able to find the page that had the information you wanted easily, like the product description page? Visual hierarchy goes a long way in whether or not the user has an easy and pleasant experience navigating their environment, or a challenging and frustrating time.
-
-Check out this article:
-<https://www.loop11.com/key-principles-of-visual-hierarchy-in-ux-design/>
-
- Design is more than just colors and fonts as you’ll find when reading that article. Where you place things, how much space you put around them, and the fonts and colors too, all go into the design of a site. And just like whether or not there are clear bathroom signs, your design choices can make for a great or uncomfortable experience. Once you’ve taken a look at that article…
-Please answer the below prompts in your assignment submission:
-
-Think about a time when a layout personally impacted your experience (like the examples in the first paragraph) and describe the scene for us. Also share how you felt when you could/couldn’t find what you were looking for.
-In the visual hierarchy article, were there topics that surprised you? If so, which one(s) and why?
-What are some of your most favorite and least favorite design features as a user?
-
-
-
 ## Hungry For More (keep on deck)
 Here is a review of CSS
 <https://www.geeksforgeeks.org/css-cheat-sheet-a-basic-guide-to-css/>
@@ -398,7 +379,7 @@ Here is a review of CSS
 Play some more games!
 <https://dev.to/dailydevtips1/10-amazing-games-to-learn-css-382i>
 
-Your task for mindset is to look into **libraries and frameworks** like **Bootstrap** and more. Here are some lists of the popular ones. 
+Look into **libraries and frameworks** like **Bootstrap** and more. Here are some lists of the popular ones. 
 <https://www.creative-tim.com/blog/educational-tech/bootstrap-alternatives/>
 <https://thectoclub.com/tools/bootstrap-alternative/>
 

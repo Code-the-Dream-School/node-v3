@@ -184,7 +184,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 ```
-{revise}
+
 Remember that this code is running in the browser, and not in Node. That means you must use `import` and not `require`.
 
 We need to keep track of the active div so that we know which one to disable when switching between them, and that is stored in the variable `activeDiv`. We don’t need to export that variable since it’s only used here in the index script by the `setDiv` function. We export a function that sets the active div, making it visible and hiding the previous active div.

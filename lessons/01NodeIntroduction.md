@@ -11,6 +11,7 @@ In the orientation for class we mentioned that it's good practice to look at you
 
 This video shows a final project built using EJS:
 
+_video will be added once student consent has been received_
 
 This video shows a final project built using React:
 

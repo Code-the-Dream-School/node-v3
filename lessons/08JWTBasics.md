@@ -119,7 +119,7 @@ We want to give you an opportunity to get creative and to do your own work, so f
 
 
 ## Think about your Final Project
-During [week 1](?week=1&lesson=Node+Introduction) we shared some videos of final projects from a previous class to help start you thinking about a project you'd like to build and give you an idea of what a finished final project might look like.  We're at the halfway point in class right now, and in a few weeks (during the lesson on Server-Side Rendering with EJS) you'll submit a final project proposal idea along with your assignment for the week.  Here is what you'll need to include in your proposal that week: 
+During [week 1](?week=1&lesson=Node+Introduction) we shared some videos of final projects from a previous class to help you start thinking about a project you'd like to build.  Hopefully it also gave you an idea of what a finished final project might look like.  We're at the halfway point in class right now and in a few weeks (during the lesson on Server-Side Rendering with EJS) you'll submit a final project proposal idea along with your assignment for the week.  Here is what you'll need to include in your proposal that week: 
 
 - What is your project title? 
 - What is your project concept?
@@ -129,7 +129,7 @@ During [week 1](?week=1&lesson=Node+Introduction) we shared some videos of final
 - What Features/Functions will your project have?
   - What do you plan to include and/or build in your final project? (Some examples may be extensions, third-party libraries, security features, testing capabilites, etc.)
 
-Here are two other final projects from a past class to show you other alternatives to the two you saw during week 1:
+To help you prepare, here are two other final projects from a past class to show you other alternatives to the two you saw during week 1:
 
 **_This project was built using EJS:_**
 

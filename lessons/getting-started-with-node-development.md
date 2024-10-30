@@ -87,7 +87,7 @@ This is a reminder that any video on Youtube can have increased or decreased spe
 ## Regular Bookmarking
 It's important to keep your physical workspace clutter free, and also your virtual workspace! While working try to keep your browser tabs under 5 and to keep all related materials bookmarked and ordered on deck based on what you will need each week.
  
-##
+## 
 
 ## Your Assignments
 

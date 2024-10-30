@@ -28,10 +28,3 @@ Please answer the below prompts in your assignment submission:
 When you’ve had limited or no access to something, what did you do? Were you ultimately able to get what you needed? If not, how did your lack of access impact your life?
 Now that you’ve read about accessibility, and hopefully considered some of the challenges others face using the internet, are there things you can/will do differently in your current/future project(s)? Give examples/specifics.
 
-
-## Hungry For More
-Introducing Typescript, Let's Go Docsss!!
-
-<https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html>
-
-<https://www.typescriptlang.org/docs/>

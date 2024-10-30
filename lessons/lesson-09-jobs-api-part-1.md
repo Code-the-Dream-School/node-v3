@@ -1,5 +1,6 @@
 ## Thinking About Your Final Project
 
+Before starting lesson take a few minutes to watch these two final project examples. One uses EJS for front end and the other is a fullstack React app. These students incorporated something they were passionate about in their projects. Keep in mind the React apps UI can be acheived without React. *insert*
 
 In this lesson, as in the previous one, you can choose to implement some content different from what the instructor shows. Parts of this lesson and the following lesson will be iterative, especially with initial set up. Dust off vacation, and launch right in. Try to imagine something for an application you’d like to invent! The instructor shows CRUD operations for job records, and uses a Job model. However, **you can choose to store objects of a different kind instead of job records, this is especially recommended if you fell behind before break**. This work could then comprise the beginning of your final project. Look at the final project rubric **[here](https://learn.codethedream.org/node-express-final-project-latest/)** to see what is required. (Bear in mind, though, that there are two ways to go in the final project — either using a front end and back end, or using server side rendering, which we haven’t covered yet.)
 

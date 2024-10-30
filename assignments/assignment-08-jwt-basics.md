@@ -55,3 +55,6 @@ Please answer the below prompts in your assignment submission:
 Have you implemented/used any new strategies since the previous post on how to ask for help? If so what were they and how did they turn out for you?
 After reading the article what changes (if any) will you make to your strategy?
 What are some ways you can determine which “circle” (inner circle of things you know, middle circle of things you can figure out on your own, outer circle of things you don’t know and can’t learn by yourself) your blocker/bug/issue falls into?
+
+### Hungry for more
+

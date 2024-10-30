@@ -115,3 +115,4 @@ We want to give you an opportunity to get creative and to do your own work, so f
 7. **Optional Frontend:**
    - **Create a simple HTML/JS front end in `preferred/public`.**
      - *Why:* Provides a user interface to interact with your backend, demonstrating how front-end and back-end can work together.
+

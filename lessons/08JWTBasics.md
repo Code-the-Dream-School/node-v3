@@ -115,3 +115,26 @@ We want to give you an opportunity to get creative and to do your own work, so f
 7. **Optional Frontend:**
    - **Create a simple HTML/JS front end in `preferred/public`.**
      - *Why:* Provides a user interface to interact with your backend, demonstrating how front-end and back-end can work together.
+    
+
+
+## Think about your Final Project
+During [week 1](?week=1&lesson=Node+Introduction) we shared some videos of final projects from a previous class to help start you thinking about a project you'd like to build and give you an idea of what a finished final project might look like.  We're at the halfway point in class right now, and in a few weeks (during the lesson on Server-Side Rendering with EJS) you'll submit a final project proposal idea along with your assignment for the week.  Here is what you'll need to include in your proposal that week: 
+
+- What is your project title? 
+- What is your project concept?
+  - Describe the idea and purpose of the project you're building
+- What are your Data Models?
+  - What data will will you be using? How will it be structured? How will the parts of your data be related to one another?
+- What Features/Functions will your project have?
+  - What do you plan to include and/or build in your final project? (Some examples may be extensions, third-party libraries, security features, testing capabilites, etc.)
+
+Here are two other final projects from a past class to show you other alternatives to the two you saw during week 1:
+
+**_This project was built using EJS:_**
+
+_video will be added once student consent is received_
+
+**_This project was built using a React front end:_**
+
+[Oxana Michkasova presents TriFit app built using Node and React](https://www.youtube.com/watch?v=_0uiXaADiFE)

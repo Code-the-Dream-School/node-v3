@@ -11,7 +11,7 @@ In the orientation for class we mentioned that it's good practice to look at you
 
 _**This video shows a final project built using EJS:**_
 
-  _video will be added once student consent has been received_
+[Devon Johnson Jr. presents CRM App built with Node and EJS](https://www.youtube.com/watch?v=pgtwh2WHIis)
 
 _**This video shows a final project built using React:**_
 

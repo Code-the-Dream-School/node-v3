@@ -113,7 +113,7 @@ In this way, we avoid using request(), and we can ensure that chai.use() is only
 
 ## Unit Testing a Function
 
-Create a file, utils/multiply.js.  It should export a function, multiply(), that takes two arguments and returns the product.  Now we can write a unit test, in tests/test_multipy.rb:
+Create a file, utils/multiply.js.  It should export a function, multiply(), that takes two arguments and returns the product.  Now we can write a unit test, in tests/test_multipy.js:
 ```javascript
 const multiply = require("../util/multiply");
 const get_chai = require("../util/get_chai");

@@ -7,7 +7,7 @@ Watch from 0:00:00 to 1:45:57 of this video:
 
 You may first want to review the coding assignment below. In your assignment, you create programs similar to those that the instructor demonstrates.
 
-In the orientation for class we mentioned that it's good practice to look at your [final project rubric](?page=final-project-rubric) early, and revisit it throughout the course.  In order to get a visual on what a final project for this course looks like, we'd like you to see the final project deomnstrations from two past graduates of the Node class.  
+In the orientation for class we mentioned that it's good practice to look at your [final project rubric](?page=final-project-rubric) early, and revisit it throughout the course.  In order to get a visual on what a final project for this course looks like, we'd like you to see the final project demonstrations from two past graduates of the Node class.  
 
 _**This video shows a final project built using EJS:**_
 

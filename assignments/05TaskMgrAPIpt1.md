@@ -21,7 +21,8 @@ Create a new git branch called `week5`. **This should be created when the week4 
 
 This week’s work is to be created in the `03-task-manager/starter` directory. Note that answers, if you get stuck, are in the `03-task-manager/final` directory, but try not to refer to that. Once you have changed directories to the `03-task-manager/starter` directory, you do an `npm install`. This loads the Node modules you will need for the assignment.
 
-[!CAUTION]Be Careful of Your Mongo Password!
+> [!CAUTION]
+> **Be Careful of Your Mongo Password!**
 
 The instructor pastes the Mongo database URI into the code. It includes a password. You may do the same to make sure it works. However, in general, you would _**NEVER**_ put a password or API key into your code because, when you push it to Github, it becomes public and anyone can access your data. There are hackers with Github scrapers that go looking for just such an exposure. A little later in the lesson, the instructor moves the Mongo URI into a `.env` file. This is where it should be kept.
 

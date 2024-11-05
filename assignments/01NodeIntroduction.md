@@ -81,7 +81,7 @@ For example, you could change the input field to be a dropdown with various colo
 When you are done, change directories to the `01-node-tutorial` folder and then do the following to submit your work:
 
 ```
-git commit add ./answers
+git add ./answers
 git commit -m "answers for lesson 1"
 git push -u origin week1
 ```

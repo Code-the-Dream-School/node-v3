@@ -183,3 +183,5 @@ That’s all for this week, great job! Note, that while the `01-node-tutorial` f
 
 When you have completed your programming assignment, do a `git add` for all your changes to the branch, commit the changes, and push the changes to your repository. Then create a pull request. A link to the pull request is to be included in your homework submisson.
 
+### RMOR Comprehension Check:
+So you don't redirect off this lesson page, right click the link and select "Open Link in New Tab" to [take the RMOR Comprehension Check as review of what you learned during week 1](https://airtable.com/appoSRJMlXH9KvE6w/shrdBJkkvSMDdhqYv?prefill_Lesson=Node%20v3:%20Lesson%201%20-%20Node%20Introduction)

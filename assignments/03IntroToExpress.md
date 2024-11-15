@@ -50,3 +50,7 @@ The parseInt is needed because query parameters are always passed as strings, so
 What this means, in this case, is that the user wants to see all products where the name starts with “al”, but the user wants to see no more than 5 products. When the `app.get` for `/api/v1/query` path is called, `req.query` is a hash that may contain values for “search” or “limit” or both or neither, depending on what the user puts in the query string. Again, there are array methods you can use to find that list. They are `Array.filter()` and `Array.slice()`. Add a new `app.get` statement for `/api/v1/query`, and include logic to handle these query strings. Then test it out.
 3. Add some more logic: you choose! For example, the user might want to send a regular expression instead of search for starting letters. Or the user may only want products that cost less than 20.00.
 4. Optional additional item: Add a button to your `index.html`. Add JavaScript, either within a `<script>` tag in `index.html` or in a JavaScript file it references (which would also be in the public directory.) When you click the button, your JavaScript would issue a fetch call for `/api/v1/products`. Then you’d add the data you get back to a div in your HTML.
+
+### RMOR Comprehension Check:
+
+So you don't redirect off this lesson page, right click the link and select "Open Link in New Tab" to [take the RMOR Comprehension Check as review of what you learned during week 2](https://airtable.com/appoSRJMlXH9KvE6w/shrZSNVMXj9gcJEk6?prefill_Lesson=Node%20v3:%20Lesson%202%20-%20NPM%20and%20Async%20Patterns)

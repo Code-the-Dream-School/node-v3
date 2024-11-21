@@ -133,7 +133,7 @@ To help you prepare, here are two other final projects from a past class to show
 
 **_This project was built using EJS:_**
 
-_video will be added once student consent is received_
+[Daniel Aoulou presents Blogs API built using EJS](https://www.youtube.com/watch?v=qO1e8t-auzo)
 
 **_This project was built using a React front end:_**
 

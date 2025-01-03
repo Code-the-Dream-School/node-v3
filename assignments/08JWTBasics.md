@@ -39,3 +39,7 @@ pm.environment.set("token", jsonData.token);
 This code reads the `"token"` attribute from the response JSON and saves it in the “token” environment variable that you created earlier. Then save and run the logon request. There is an icon on the upper right with an eye on it. This gives you a look at the environment. You should see the token in the environment.
 
 Next, open the `GET` request authorization again. Click on authorization, Bearer. This time, for the token value, put `{{token}}`. This uses the token variable from the environment. Then save and run the request. It should work as before.
+
+
+### RMOR Comprehension Check:
+So you don't redirect off this lesson page, right click the link and select "Open Link in New Tab" to [take the RMOR Comprehension Check as review of what you learned during the seventh course lesson on Using Query Parameters](https://airtable.com/appoSRJMlXH9KvE6w/shrZqIi4kW41lbLQ8?prefill_Lesson=Node%20v3:%20Lesson%207%20-%20Using%20Query%20Parameters)

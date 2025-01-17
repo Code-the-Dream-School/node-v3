@@ -30,3 +30,6 @@ Depending on your background with React this will either be refresh or review! L
 
 If you're more familiar with React and you feel solid, jump into Hooks: 
 <https://react.dev/reference/react/hooks>
+
+### RMOR Comprehension Check:
+So you don't redirect off this lesson page, right click the link and select "Open Link in New Tab" to [take the RMOR Comprehension Check as review of what you learned during the ninth course lesson on Jobs API part 1](https://airtable.com/appoSRJMlXH9KvE6w/shrN7Aa29Ctcgh2mj?prefill_Lesson=Node%20v3:%20Lesson%2010%20-%20Jobs%20API%20-%20part%202)

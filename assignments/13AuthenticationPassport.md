@@ -469,3 +469,6 @@ Introducing Typescript, Let's Go Docsss!!
 <https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html>
 
 <https://www.typescriptlang.org/docs/>
+
+### RMOR Comprehension Check:
+So you don't redirect off this lesson page, right click the link and select "Open Link in New Tab" to [take the FINAL RMOR Comprehension Check as review of what you learned throughout our class](https://airtable.com/appoSRJMlXH9KvE6w/shryhKpeBKvsEl1Q9?prefill_Lesson=Node%20v3:%20Lesson%2013%20-%20Authentication%20with%20Passport)

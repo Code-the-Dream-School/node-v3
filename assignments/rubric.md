@@ -47,7 +47,11 @@ It is good practice to talk about what you have learned and know about project a
   - [ ] Update a piece of data
   - [ ] Delete a piece of data
 	 - [ ] Show any additional features of the app such as pagination, search functionality, or anything you may have included
- - [ ] Share what the most challenging part of the project and what you enjoyed working on the most
+ - [ ] Share what the most challenging part of the project and what you enjoyed working on the most or answer any of the following questions:
+   - [ ] Did you encounter any problems? How did you resolve them? What resources did you use?
+   - [ ] What did you have the most fun building?
+   - [ ] Did you reach your end goal?
+   - [ ] How would you want to continue your project and grow it further? 
 
 ## How to Record Your Presentation
 

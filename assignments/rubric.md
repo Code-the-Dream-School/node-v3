@@ -82,7 +82,7 @@ You can record your presentation in any of these three ways:
 
  ![Upload videos modal](https://github.com/Code-the-Dream-School/intro-to-programming-2025/blob/d2f9b35d7206eeb0af24f85a8e8e5d97d43cbfad/images/Screenshot%202025-01-27%20at%204.01.35%E2%80%AFPM.png?raw=true)
 
-<h4>4. The fle title will be the default video title. You can change this to include your name and "Intro to Programming Final Project Presentation"</h4>
+<h4>4. The fle title will be the default video title. You can change this to include your name and "Node Final Project Presentation"</h4>
 
 ![Edit Video Details title](https://github.com/Code-the-Dream-School/intro-to-programming-2025/blob/d2f9b35d7206eeb0af24f85a8e8e5d97d43cbfad/images/Screenshot%202025-01-27%20at%204.02.17%E2%80%AFPM.png?raw=true)
 
@@ -109,6 +109,6 @@ You can record your presentation in any of these three ways:
 
 ## Submit Your Recording
 
-Once you have recorded your presentation, please **[USE THIS LINK TO SUBMIT YOUR RECORDING OF YOUR FINAL PROJECT PRESENTATION](https://airtable.com/appoSRJMlXH9KvE6w/shrzPnfo6Iy86iETq)**
+Once you have recorded your presentation, please **[USE YOUR USUAL ASSIGNMENT SUBMISSION FORM LINK TO SUBMIT YOUR RECORDING OF YOUR FINAL PROJECT PRESENTATION](https://airtable.com/appoSRJMlXH9KvE6w/shrzPnfo6Iy86iETq)** - there will be additional fields to complete at the bottom of your usual form.
 
 You can watch a video on how to submit your recording [by clicking this link](https://youtu.be/bKPglZS2UTU)

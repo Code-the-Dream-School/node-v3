@@ -15,7 +15,8 @@ The instructor does provide examples if you need them. Just like the previous le
 
 1. Within your answers directory, create a file called `.gitignore`. It should have the following lines:  
 ```  
-/node_modules  
+/node_modules
+
 .DS_Store  
 ```  
 You do not want to store the contents of `node_modules` in Github, because they are already present on the web as public files, accessible by npm. As well, the `node_modules` folder can get very large, which would slow down our git operations if we include it. The `.DS_Store` file is sometimes created by the Mac operating system, and you don’t need that one in Github either.

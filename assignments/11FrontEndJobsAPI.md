@@ -1,4 +1,4 @@
-Continue working in the `06-jobs-api` repository that you used for lessons 9 and 10\. Before you start, create a new branch as usual, with a branch name of `week12`. (Week 11 was a catch-up week, so you create the `week12` branch when the `week10` branch is active.)
+Continue working in the `06-jobs-api` repository that you used for lessons 9 and 10. Before you start, create a new branch as usual, with a branch name of `week11`. Remember to branch off the `main` branch after it was updated with your work from week 10 through merging your pull request.
 
 Create a directory called `public`. This is for the HTML and JavaScript files for the front end. The HTML code you will use is below. Put that in the `public` directory with a file name of `index.html`. (**Reminder:** You will have to change the form, which below is for a job, to match your data model).
 

@@ -9,13 +9,14 @@ The basic elements of an Express.js program are as follows:
 
 You continue working in the node-express-course repository, but for this week, you switch to the 02-express-tutorial directory. This week introduces the Express npm package, which makes web development much quicker than using Node alone. There is no need to use an answers folder. You just put your work in the 02-express-tutorial folder. Complete the following steps:
 
-1. While the `week2` branch is active, create a `week3` branch, for this week’s work (`git checkout -b week3`).
-2. While you are in the `02-express-tutorial` folder, run `npm install`. The instructor has provided a `package.json` and a `.gitignore`. The `package.json` already has the express package defined in it, so running the command `npm install` will do the installation of that package, as needed for this week’s work.
-3. Create a folder named `public` within `02-express-tutorial`. Create an HTML file within it called `index.html`. It’s not critical what you put in the HTML file – just something simple.
-4. Edit `app.js` to add all the elements of an Express application as listed above, in the right order. You won’t have any `app.get` or `app.post` statements yet. You should have the statement `app.use(express.static("./public"))` so that your HTML file will load. Use port 3000 in the listen statement.
-5. Start the server, with `npm start`. Then use your browser to load http://localhost:3000. You should see the HTML page you created.
-6. Try the URL http://localhost:3000/not-there. You should see that your `app.all` for page not found returns a 404 error.
-7. For the next part, you will implement APIs that return JSON. Because you are using the browser to display the JSON, you may want to add a JSON formatter plugin into your browser ([here’s one for Chrome](https://chrome.google.com/webstore/detail/jsonvue/chklaanhfefbnpoihckbnefhakgolnmc), for example), so that it’s easier to view. Add an `app.get` statement to `app.js`. It should be _after_ the Express static middleware, but _before_ the “not found” handler. It should be for the URL `/api/v1/test`. It should return JSON using the following code:
+1. Merge your pull request from week 2 into main.
+2. While the `main` branch is active, create a `week3` branch, for this week’s work (`git checkout -b week3`).
+3. While you are in the `02-express-tutorial` folder, run `npm install`. The instructor has provided a `package.json` and a `.gitignore`. The `package.json` already has the express package defined in it, so running the command `npm install` will do the installation of that package, as needed for this week’s work.
+4. Create a folder named `public` within `02-express-tutorial`. Create an HTML file within it called `index.html`. It’s not critical what you put in the HTML file – just something simple.
+5. Edit `app.js` to add all the elements of an Express application as listed above, in the right order. You won’t have any `app.get` or `app.post` statements yet. You should have the statement `app.use(express.static("./public"))` so that your HTML file will load. Use port 3000 in the listen statement.
+6. Start the server, with `npm start`. Then use your browser to load http://localhost:3000. You should see the HTML page you created.
+7. Try the URL http://localhost:3000/not-there. You should see that your `app.all` for page not found returns a 404 error.
+8. For the next part, you will implement APIs that return JSON. Because you are using the browser to display the JSON, you may want to add a JSON formatter plugin into your browser ([here’s one for Chrome](https://chrome.google.com/webstore/detail/jsonvue/chklaanhfefbnpoihckbnefhakgolnmc), for example), so that it’s easier to view. Add an `app.get` statement to `app.js`. It should be _after_ the Express static middleware, but _before_ the “not found” handler. It should be for the URL `/api/v1/test`. It should return JSON using the following code:
 
 ```javascript
 res.json({ message: "It worked!" });

@@ -17,7 +17,7 @@ The instructor suggests that you download code via a link on johnsmilga.com.
 
 Just continue to work on the same git repository you initially forked and downloaded for this course, which is `node-express-course`. You do not need to move directories from this git repository.
 
-Create a new git branch called `week5`. **This should be created when the week4 branch is active, so that your work adds on to the work of the week4 branch.**
+Merge week 4 to main, update your local main using `git pull origin main`. Create a new git branch called `week5`. **This should be created when the most current main branch is active, so that your work adds on to the work from week 4 that you merged to main.**
 
 This week’s work is to be created in the `03-task-manager/starter` directory. Note that answers, if you get stuck, are in the `03-task-manager/final` directory, but try not to refer to that. Once you have changed directories to the `03-task-manager/starter` directory, you do an `npm install`. This loads the Node modules you will need for the assignment.
 

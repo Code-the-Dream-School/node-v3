@@ -1,18 +1,8 @@
-For this lesson, you continue to work in the `node-express-course/02-express-tutorial` directory. As usual, you should use git to switch to a new branch, the `week4` branch _from_ the `week3` branch, before you start your work. However, there is a potential hitch. Suppose your `week3` branch has not been approved by your reviewer? You are going to continue to work on `app.js`, so your new changes might conflict with any changes that the reviewer requests. There are various ways to solve this problem, having to do with resolution of merge conflicts. One is as follows:
+For this lesson, you continue to work in the `node-express-course/02-express-tutorial` directory. As usual, you should merge your week 3 week to main then use git to switch to a new branch, the `week4` branch _from_ the `main` branch, before you start your work. If your reviewer still hasn't given you feedback on week 3:
 
-* Add and commit the changes you have made so far to the `week4` branch.
-* Checkout `week3`.
-* Make the changes requested by your reviewer, and add, commit, and push them. This adds them to your PR.
-* Checkout `week4`.
-* Do: `git merge week3 -m "merge of changes to previous week lesson"`. This brings in all the changes from `week3` into your `week4` branch.
-
-At this point, you may get a merge conflict. This happens if there are changes to the same lines in the files in both the `week3` branch that you’re trying to merge in and the `week4` branch that you’re currently in. Git doesn’t know which versions of those lines you want to keep If you know how to resolve merge conflicts, this is the best way to proceed. If you do not know how to resolve merge conflicts, you will need to learn it sooner or later. There is a good tutorial **[here.](https://www.youtube.com/watch?v=lz5OuKzvadQ)** But, here is an alternate procedure:
-
-* Add and commit your changes to the `week4` branch.
-* Checkout `week3`, make the changes required, and add, commit, and push.
-* Checkout `week4`
-* Do: `git checkout week3 -- app.js >apptemp.js`. This takes the version of app.js from the `week3` branch and puts it in a file called `apptemp.js`.
-* Copy the changes you need from `apptemp.js` to `app.js`, and then erase `apptemp.js`
+* Make sure your cohort leader is aware you haven't received feedback yet
+* Merge your week 3 to main anyway
+* If you later find there are changes you need to make to week 3, incorporate them into the work you're doing on whatever week you are working on, and let your reviewer know "week 3 changes included in this assignment"
 
 Make the following changes to `app.js` and related files. (Note that examples of code that perform these functions are available in the `final` directory.) First, create a _middleware function_ called `logger` in `app.js`. A middleware function is passed `req` and `res` as its first two parameters, just like an `app.get` call, but it is also passed a third parameter, `next`. The next() function must be called once middleware processing is completed, otherwise no response is sent back for the request. The middleware function you create should log the `method` and `url` properties from the `req` object, as well as the current time, before calling `next()`. Middleware functions are called in two ways. First, you can insert them into your route statements, as follows:
 

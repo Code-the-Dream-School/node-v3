@@ -1,8 +1,13 @@
-For week 1, you created files in the `node-express-course/01-node-tutorial/answers` directory. For week 2, you’ll continue to do your work in that same directory. However, before you do your work for this week, you must switch to a new git branch. While the week1 branch is active, use the command
-
+For week 1, you created files in the `node-express-course/01-node-tutorial/answers` directory. For week 2, you’ll continue to do your work in that same directory. However, before you do your work for this week, you must merge last week's pull request and update your local main branch with your work from last week.  To do this, merge your pull request so it is closed and main is updated with your week 1 work.  Then, locally, make sure you're on your main branch (`git checkout main`) and run the command
+```javascript
+git pull origin main
 ```
+
+to update your local main branch with your week 1 work.  Finally, run the command
+```javascript
 git checkout -b week2
 ```
+to create a new working branch titled "week2" to do your week 2 assignment on.
 
 As you will be working on the `node-express-course` repository for some weeks, this is the way you separate your assignments for each week. The key topics in this section are:
 

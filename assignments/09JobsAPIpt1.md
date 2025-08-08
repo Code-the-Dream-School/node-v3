@@ -2,7 +2,7 @@ There is a **new repository** for this lesson. It is [**here**](https://github.c
 
 ### **Warning!**
 
-When you clone, make sure you are not inside the`node-express-course` folder, so that you keep this repository separate.
+**When you clone, make sure you are not inside the`node-express-course` folder, so that you keep this repository separate.**
 
 You will do your work in this new `06-jobs-api` repository directory. If you get stuck, answers are in the old repository, in the `node-express-course/06-jobs-api/final` directory, but please try to do your own work. Before you start this lesson, you create the `week9` git branch.
 

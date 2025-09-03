@@ -859,3 +859,57 @@ You should be making commits as you go along. Once you have everything working, 
 * What do you do if the delete succeeds? First, you put a message in the text content of the message paragraph. Second, you redraw the table showing the updated list of entries. The jobs.js module has a function for this.
 * What do you do if the delete fails? Put a message indicating the failure in the message paragraph.
 * Anything else? You don’t want to take input while these asynchronous operations are in progress, so you set the enabled flag before you start them, and clear it afterwards.
+
+  
+### Final Project Proposal
+This week you will also submit a final project proposal (which sounds way more formal than it is!)  Your Assignment Submission Form for this lesson will have additional questions on it for you to answer.  They are:
+ - What is your project title? (optional)
+ - What is your project concept?
+   - Describe the idea and purpose of the project you're building
+ - What are your Data Models
+   - What data will will you be using? How will it be structured? How will the parts of your data be related to one another?
+ - What Features/Functions will your project have?
+   - What do you plan to include and/or build in your final project?
+   - Some examples may be extensions, third-party libraries, security features, testing capabilites, etc.) 
+
+Be sure you consult the Final Project Rubric as you prepare your proposal.
+<details>
+  <summary><strong>Final Project Rubric - click on this title to expand</strong></summary>
+
+  ## Requirements for the Project (Rubric)
+ - [ ] Create a Node/Express application from scratch using the MongoDB database. It must contain the following elements: 
+
+### Models & Controllers
+
+ - [ ] At least two Mongoose data models. One of these must be a User data model, as you need to implement logon.
+ - [ ] Implement user registration and logon. If you are doing server side rendering, authentication must use Passport. If you are doing a full stack project, authentication must use JWT tokens. Passwords must be stored hashed.
+ - [ ] Model attributes should use several different data types (number, string, boolean, date, array etc.).
+ - [ ] Include validation of your attributes to prevent the creation of invalid records.
+ - [ ] For any models beside the User model, implement all the CRUD (create, read, update, delete) operations in your controllers and routes.
+ - [ ] Bonus: implement some non-CRUD operations (like searching, sorting, paging, etc.).
+ - [ ] Implement access control middleware so that at least the create/update/delete operations require authentication. You can have unauthenticated read operations if it makes sense in your application.
+ - [ ] Implement access control logic in your controllers, so that one user can’t access another user’s data. This logic must be present for every controller operation or your application is not secure.
+ - [ ] Include appropriate notifications to the user. For full stack applications, the messages should be returned as needed with the API. (For some APIs, the HTTP status code suffices.) Then the front end displays the message or messages to the user. For server side rendered applications, you need to store the message in the user session, perhaps using the connect-flash NPM package.
+ - [ ] Implement error handling middleware so that all exceptions and error conditions are handled and so that the user gets user friendly messages for each event.
+ - [ ] Use best practices in the organization of application code and in indentation. You may want to use eslint and prettier to make sure your code complies.
+
+### User Interface
+
+The user interface is the front end for full stack applications, or the EJS views for server side rendered applications. In either case, the UI should have these capabilities:
+ - [ ] Registration, logon, and logoff are supported.
+ - [ ] All CRUD operations for each of the data models besided the User model are supported.
+ - [ ] Links or buttons should be provided to help the users navigate the application.
+ - [ ] Style your application. Again, this is not the focus, so keep it simple until you have done everything else.
+
+### Deployment
+
+ - [ ] Include security protections for your application. Include security packages like xss-clean and helmet, appropriately configured.
+ - [ ] Deploy the application to Render.com.
+
+### Bonus Items (these are entirely optional)
+
+ - [ ] Do something extra.  This could be the implementation of a more complicated data model, or use of additional NPM packages, callouts to other public APIs, or whatever your creativity inspires.
+ - [ ] Implement some test cases using Mocha, Chai, and Puppeteer.
+ - [ ] For full stack applications, implement Swagger to document the API.
+
+</details>

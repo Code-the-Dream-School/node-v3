@@ -54,7 +54,7 @@ The `index.ejs` view just shows links to login or register. The `logon.ejs` view
 <%- include("partials/footer.ejs") %>
 ```
 
-`views/register.js`
+`views/register.ejs`
 
 ```
 <%- include("partials/head.ejs") %>

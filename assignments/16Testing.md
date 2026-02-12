@@ -1,7 +1,7 @@
 
 ### Continued Learning 
 
-## Congratulations on your project completion!! The learning never stops! Here is an additional lesson and assignment to ease you into your indepedent learning or to continue building on your skills while you wait for practicum to begin (if you intend to participate).
+## Congratulations on your project completion!! The learning never stops! Though your project is done, you do still have this additional lesson and assignment to complete to really have your Node skills rounded out. Testing is a vital skill to add to your skill tool box to double check and ensure you've produced quality work.
 
 You continue with your project now, but create a new branch called testing. 
 
